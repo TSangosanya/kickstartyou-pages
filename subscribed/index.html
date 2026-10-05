@@ -10,7 +10,7 @@
   * { box-sizing: border-box; }
   body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
          background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; padding: 16px; }
-  .card { background: #fff; max-width: 480px; width: 100%; border-radius: 10px; padding: 36px 28px; text-align: center;
+  .card { background: #fff; max-width: 520px; width: 100%; border-radius: 10px; padding: 36px 28px; text-align: center;
           box-shadow: 0 2px 12px rgba(75, 30, 120, 0.08); }
   .logo { font-size: 32px; font-weight: 900; letter-spacing: -0.5px; line-height: 1; }
   .logo .you { color: var(--dark); }
@@ -20,6 +20,8 @@
   .btn { display: inline-block; background: var(--dark); color: #fff; text-decoration: none; font-weight: bold;
          padding: 13px 0; width: 260px; max-width: 100%; border-radius: 6px; font-size: 16px; margin-bottom: 12px; }
   .btn:hover, .btn:focus { background: #3a165e; }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0 16px; }
+  .btns .btn { flex: 1 1 190px; width: auto; margin: 0; padding: 13px 10px; font-size: 15px; }
   .small { font-size: 14px; color: #555; margin: 8px 0 0; }
 </style>
 </head>
@@ -29,8 +31,10 @@
     <h1>You're in! 🚀</h1>
     <p>Your subscription is confirmed. Look out for a welcome email from me, then The Weekly Kick every Thursday at 4pm.</p>
     <p class="small" style="margin:0 0 12px;">A sponsor licence means an employer can sponsor, not that it will for every role, so always check the advert.</p>
-    <a class="btn" href="https://1drv.ms/x/c/cb7701d35eefcc7b/IQCvbVlcgkBLQ6bL7M86icwoAdoC3fsqTbSVsX9jpXcIPyA?e=k7QZHD">Open the sponsor tracker</a><br>
-    <a class="btn" href="https://whatsapp.com/channel/0029VbEMesjEquiK8Z1TzF3m">Follow the WhatsApp Channel</a>
+    <div class="btns">
+      <a class="btn" href="https://1drv.ms/x/c/cb7701d35eefcc7b/IQCvbVlcgkBLQ6bL7M86icwoAdoC3fsqTbSVsX9jpXcIPyA?e=k7QZHD">Open the sponsor tracker</a>
+      <a class="btn" href="https://whatsapp.com/channel/0029VbEMesjEquiK8Z1TzF3m">Follow the WhatsApp Channel</a>
+    </div>
     <p class="small">Can't see the welcome email? Check your spam or promotions folder.</p>
   </main>
 </body>
