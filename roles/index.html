@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roles tracker | KickStartYou</title>
+<meta name="description" content="UK graduate roles and internships at employers with a Skilled Worker sponsor licence. Updated every Monday and Thursday.">
+<link rel="canonical" href="https://kickstartyou.org/roles/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KickStartYou">
+<meta property="og:title" content="Roles tracker: UK roles at employers with a sponsor licence">
+<meta property="og:description" content="UK graduate roles and internships at employers with a Skilled Worker sponsor licence. Updated every Monday and Thursday.">
+<meta property="og:url" content="https://kickstartyou.org/roles/">
+<meta property="og:image" content="https://kickstartyou.org/logo.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="../logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+<script src="../assets/roles.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../" aria-label="KickStartYou home"><img src="../assets/logo-white.png" alt="KickStartYou" width="269" height="112"></a>
+<nav class="main" aria-label="Main">
+<a href="./" aria-current="page">Roles tracker</a><a href="../news/">News</a><a href="../about/">About</a>
+<a href="#" class="btn btn-white" data-open-signup>Subscribe<span class="long"> to The Weekly Kick</span></a>
+</nav>
+</div></header>
+
+<main id="main">
+<section class="pagehead"><div class="wrap">
+<h1>Roles tracker</h1>
+<p>UK roles at employers with a Skilled Worker sponsor licence. Updated every Monday and Thursday.</p>
+<p class="updated" id="updated"></p>
+</div></section>
+
+<section class="wrap" style="padding-top:28px"><div class="strips">
+<div class="strip" style="background:var(--greenbg)"><p><span class="long">Want updates faster? Our WhatsApp channel shares standout roles as soon as we find them.</span><span class="short">Get standout roles first on WhatsApp.</span></p><a class="btn btn-green btn-sm" href="https://whatsapp.com/channel/0029VbEMesjEquiK8Z1TzF3m" target="_blank" rel="noopener">Follow the channel</a></div>
+<div class="strip" style="background:var(--light)"><p>Get roles closing soon in your inbox every Thursday.</p><a class="btn btn-purple btn-sm" href="#" data-open-signup>Subscribe</a></div>
+</div></section>
+
+<section class="wrap" style="padding-top:28px">
+<details class="howto">
+<summary>How to use this tracker</summary>
+<ul>
+<li><b>New</b> means the role was added in the latest update.</li>
+<li><b>Closes in X days</b> shows how urgent a role is. Roles with <b>no closing date</b> can close without warning, so apply early.</li>
+<li><b>A sponsor licence means the employer can sponsor</b>, but not every role will. Always check the job ad.</li>
+<li><b>Use the filters</b> to narrow by sector, location or closing date. Closed roles are hidden unless you press "Show closed roles" (under Filters on a phone).</li>
+</ul>
+</details>
+<div class="filters">
+<div class="field" style="flex:2 1 240px"><label for="f-search">Search</label><input id="f-search" type="search" placeholder="Company or role"></div>
+<button type="button" class="chip filtbtn" id="f-toggle" aria-expanded="false" aria-controls="f-more">Filters</button>
+<div class="morefilters" id="f-more">
+<div class="field"><label for="f-loc">Location</label><select id="f-loc"><option>All locations</option><option>London</option><option>Outside London</option><option>Hybrid or remote</option></select></div>
+<div class="field"><label for="f-sector">Sector</label><select id="f-sector"></select></div>
+<div class="field"><label for="f-sort">Sort by</label><select id="f-sort"><option>New first</option><option>Closing soonest</option><option>Company A to Z</option></select></div>
+<button type="button" class="chip" id="f-week" aria-pressed="false">Closing this week</button>
+<button type="button" class="chip" id="f-closed" aria-pressed="false">Show closed roles</button>
+</div>
+</div>
+<p class="small" id="count" style="margin:18px 0 10px" aria-live="polite"></p>
+<div class="tablebox"><table class="rtable"><thead><tr><th scope="col">Company</th><th scope="col">Role</th><th scope="col">Location</th><th scope="col">Closing date</th><th scope="col">Apply link</th></tr></thead><tbody id="all"><tr><td colspan="5" class="empty">Loading roles…</td></tr></tbody></table>
+<div class="empty" id="empty" hidden><p style="margin:0 0 14px;font-weight:600">No roles match these filters.</p><button type="button" class="chip" id="clear">Clear filters</button></div></div>
+<nav class="pager" id="pager" aria-label="Pages of roles" hidden></nav>
+<p class="small" style="margin-top:12px">A sponsor licence means an employer can sponsor a visa. It doesn't guarantee sponsorship for every role, so always check the job ad. We don't give immigration advice.</p>
+</section>
+
+<section class="wrap section"><div class="band">
+<div><h2>Get roles like these every Thursday</h2><p>The Weekly Kick: roles closing soon, sponsorship news explained simply and events celebrating Black food, music and culture.</p></div>
+<a href="#" class="btn btn-white" data-open-signup>Subscribe</a>
+</div></section>
+</main>
+
+<footer class="site"><div class="wrap">
+<div class="cols">
+<div><img src="../assets/logo-white.png" alt="KickStartYou" width="187" height="78" style="height:78px;width:auto;display:block;margin-left:-12px"><p style="margin:8px 0 0;color:#d6d0de;font-size:15px">Free career support for Black African and Caribbean international students in the UK.</p></div>
+<div class="col"><p class="h">Follow</p><a href="https://whatsapp.com/channel/0029VbEMesjEquiK8Z1TzF3m" target="_blank" rel="noopener">WhatsApp channel</a><a href="https://www.linkedin.com/in/toluwani-sangosanya" target="_blank" rel="noopener">LinkedIn</a><a href="#" data-open-signup>The Weekly Kick</a></div>
+<div class="col"><p class="h">Contact</p><a href="mailto:toluwani@kickstartyou.org">toluwani@kickstartyou.org</a><a href="../legal/#privacy">Privacy</a><a href="../legal/#terms">Terms</a><a href="../legal/#cookies">Cookie policy</a><button type="button" data-cookie-settings>Cookie settings</button></div>
+</div>
+<p class="bottom">© 2026 KickStartYou. We don't give immigration advice.</p>
+</div></footer>
+</body>
+</html>

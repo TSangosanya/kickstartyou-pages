@@ -1,0 +1,346 @@
+{
+ "updated": "2026-10-15",
+ "roles": [
+  {
+   "company": "Viridien",
+   "role": "IT Support (Graduate) - Services Team",
+   "location": "Haywards Heath, West Sussex (hybrid)",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Needs a computing-related degree.",
+   "link": "https://cgg.wd103.myworkdayjobs.com/viridiengraduate/job/Haywards-Heath-United-Kingdom/IT-Support--Graduate---Services-Team_JR101498"
+  },
+  {
+   "company": "Jump Trading",
+   "role": "Campus ML Research Engineer (Full-Time)",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Asks for strong Python or C++ and deep learning skills.",
+   "link": "https://www.jumptrading.com/hr/job?gh_jid=7977132"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Risk & Controls Consulting: Strategy & Transformation (Cyber) Graduate Programme",
+   "location": "Bristol",
+   "closing": "2026-10-26",
+   "sector": "Consulting and accounting",
+   "note": "Only for current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Risk-Controls-Consulting-Strategy-Transformation/25116"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Financial Crime Advisory Graduate Programme (September 2027 start)",
+   "location": "London",
+   "closing": "2026-10-19",
+   "sector": "Consulting and accounting",
+   "note": "Only for current Student visa holders. Needs a 2:1.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Financial-Crime-Advisory/24207"
+  },
+  {
+   "company": "Viridien",
+   "role": "Imaging Geophysicist / Scientist Graduate Programme (Spring 2027 intake)",
+   "location": "Crawley, West Sussex (hybrid)",
+   "closing": "2027-01-31",
+   "sector": "Engineering and energy",
+   "note": "Needs a maths, physics, geophysics or geology degree.",
+   "link": "https://cgg.wd103.myworkdayjobs.com/viridiengraduate/job/Crawley-United-Kingdom/Imaging-Geophysicist---Scientist-Graduate-Programme---Spring-2027_JR101502"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Executive Reward Consulting Graduate Programme (September 2027 start)",
+   "location": "London",
+   "closing": "2026-10-16",
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Executive-Reward-Consulting/24933"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Tax Transformation & Technology Graduate Programme (September 2027 start)",
+   "location": "London (hybrid)",
+   "closing": "2026-10-16",
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Tax-Transformation-Technology/20337"
+  },
+  {
+   "company": "Jump Trading",
+   "role": "Campus Quantitative Researcher (Full-Time)",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://www.jumptrading.com/hr/job?gh_jid=8050796"
+  },
+  {
+   "company": "Zopa",
+   "role": "2027 Graduate Analyst",
+   "location": "London (Canary Wharf, hybrid)",
+   "closing": "2026-10-25",
+   "sector": "Finance and banking",
+   "link": "https://jobs.lever.co/zopa/962f3756-6e45-480f-984c-64e024b57c4f"
+  },
+  {
+   "company": "Palantir",
+   "role": "Forward Deployed Software Engineer, New Grad - Commercial",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Needs a computer science, engineering, maths, physics or similar degree.",
+   "link": "https://jobs.lever.co/palantir/2aa14e4f-d406-486e-9aa8-6ff3358d70a0"
+  },
+  {
+   "company": "Alliance Medical (NHS partner)",
+   "role": "Graduate MRI Radiographer",
+   "location": "Good Hope Hospital, Sutton Coldfield",
+   "closing": null,
+   "sector": "Healthcare and science",
+   "note": "For newly qualified or final-year radiographers.",
+   "link": "https://www.jobs.nhs.uk/candidate/jobadvert/E0151-26-0047"
+  },
+  {
+   "company": "EY-Parthenon",
+   "role": "Strategy (Financial Services) Graduate Programme - September 2027 intake",
+   "location": "London",
+   "closing": "2026-10-22",
+   "sector": "Consulting and accounting",
+   "note": "Limited sponsorship places. Must be eligible for the New Entrant rate.",
+   "link": "https://ukstudents.ey.com/?searchText=Strategy%20(Financial%20Services)%20Graduate%20Programme%20-%20September%202027%20intake&paged=1"
+  },
+  {
+   "company": "Imperial College Healthcare",
+   "role": "Test Analyst (Band 5)",
+   "location": "Charing Cross Hospital, London",
+   "closing": "2026-10-06",
+   "sector": "Healthcare and science",
+   "note": "Asks for a degree plus 1 to 2 years' software testing experience.",
+   "link": "https://www.jobs.nhs.uk/candidate/jobadvert/C9290-26-1129"
+  },
+  {
+   "company": "Newcastle Hospitals",
+   "role": "Assistant Psychologist (part-time)",
+   "location": "Trustwide, Newcastle upon Tyne",
+   "closing": "2026-10-05",
+   "sector": "Healthcare and science",
+   "note": "Part-time. Asks for paid or voluntary experience in an assistant psychologist-type role.",
+   "link": "https://www.jobs.nhs.uk/candidate/jobadvert/C9317-26-0801"
+  },
+  {
+   "company": "Oxford University Hospitals",
+   "role": "Band 5 Foundation Staff Nurse - 2025 Graduates",
+   "location": "John Radcliffe Hospital and other Oxford sites",
+   "closing": "2026-10-05",
+   "sector": "Healthcare and science",
+   "note": "Needs NMC registration. May close early.",
+   "link": "https://www.jobs.nhs.uk/candidate/jobadvert/C9321-26-1681"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Assurance Graduate Programme 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Assurance/23962"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Assurance Graduate Programme 2027",
+   "location": "Bristol",
+   "closing": "2026-10-16",
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Assurance/23958"
+  },
+  {
+   "company": "Schonfeld",
+   "role": "2027 Risk Analyst (DMFI) Intern",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://job-boards.greenhouse.io/schonfeld/jobs/8172053"
+  },
+  {
+   "company": "Schonfeld",
+   "role": "2027 DMFI Quant Developer Intern",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://job-boards.greenhouse.io/schonfeld/jobs/8207942"
+  },
+  {
+   "company": "Palantir",
+   "role": "Software Engineer, Internship",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://jobs.lever.co/palantir/76a60923-bb49-40f5-b061-7c7eb1299602"
+  },
+  {
+   "company": "Palantir",
+   "role": "Software Engineer, New Grad",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://jobs.lever.co/palantir/d372c805-d0cd-4a10-9522-fbecc78d6f3e"
+  },
+  {
+   "company": "Ebury",
+   "role": "Product Graduate - Payments",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://job-boards.eu.greenhouse.io/ebury/jobs/4994389101"
+  },
+  {
+   "company": "Scale AI",
+   "role": "Software Engineering Intern (Summer 2027)",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005"
+  },
+  {
+   "company": "Scale AI",
+   "role": "Software Engineer - New Grad",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
+  },
+  {
+   "company": "Anthropic",
+   "role": "Associate Applied AI, Rotational Program, London",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Asks for up to 2 years' customer-facing technical experience.",
+   "link": "https://job-boards.greenhouse.io/anthropic/jobs/5425724008"
+  },
+  {
+   "company": "Point72",
+   "role": "Quantitative Software Developer Intern",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002"
+  },
+  {
+   "company": "Jump Trading",
+   "role": "Campus Data Engineer (Intern)",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://www.jumptrading.com/hr/job?gh_jid=7975008"
+  },
+  {
+   "company": "Jump Trading",
+   "role": "Campus Quantitative Researcher (Intern)",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://www.jumptrading.com/hr/job?gh_jid=8010307"
+  },
+  {
+   "company": "Jump Trading",
+   "role": "Campus Software Engineer (Intern)",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://www.jumptrading.com/hr/job?gh_jid=7975026"
+  },
+  {
+   "company": "Virtu",
+   "role": "2027 Summer Internship - Client Support",
+   "location": "London",
+   "closing": "2026-12-11",
+   "sector": "Finance and banking",
+   "note": "For students graduating Dec 2027 to Jun 2028.",
+   "link": "https://job-boards.greenhouse.io/virtu/jobs/8746197002"
+  },
+  {
+   "company": "Barclays",
+   "role": "UK Corporate Banking Graduate Programme 2027",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://search.jobs.barclays/job/leeds/uk-corporate-banking-graduate-programme-2027-leeds/13015/100032501568"
+  },
+  {
+   "company": "Barclays",
+   "role": "2027 Retail, Business and Customer Banking Graduate Programme",
+   "location": "Northampton",
+   "closing": "2026-10-31",
+   "sector": "Finance and banking",
+   "note": "Degree must be finished by June 2027.",
+   "link": "https://search.jobs.barclays/job/northampton/2027-retail-business-and-customer-banking-graduate-programme-northampton/13015/100411086080"
+  },
+  {
+   "company": "KPMG",
+   "role": "Consulting and Technology Graduate Programme 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Your course must finish before your start date.",
+   "link": "https://www.kpmgcareers.co.uk/search/"
+  },
+  {
+   "company": "Virtu",
+   "role": "2027 Summer Internship - Technical",
+   "location": "London",
+   "closing": "2026-12-11",
+   "sector": "Tech and data",
+   "note": "For students graduating Dec 2027 to Jun 2028.",
+   "link": "https://job-boards.greenhouse.io/virtu/jobs/8745933002"
+  },
+  {
+   "company": "Point72",
+   "role": "Quantitative Researcher - Intern",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://job-boards.greenhouse.io/point72/jobs/7297657002"
+  },
+  {
+   "company": "Samsara",
+   "role": "Entry Level Tech Sales - UK&I Market",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Asks for 1 to 3 years' experience in a target-driven role.",
+   "link": "https://www.samsara.com/company/careers/roles/8104994"
+  },
+  {
+   "company": "KPMG",
+   "role": "2027 Audit Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-07",
+   "sector": "Consulting and accounting",
+   "link": "https://targetjobs.co.uk/jobs/kpmg-2027-audit-graduate-programme-london-243547"
+  },
+  {
+   "company": "Softwire",
+   "role": "Graduate Consultant Software Engineer 2027",
+   "location": "London, Cambridge, Manchester",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "link": "https://online.softwire.com/apply/form?vacancyCode=R8gKa8"
+  },
+  {
+   "company": "Forvis Mazars",
+   "role": "Graduate roles September 2027",
+   "location": "London, Sutton",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "link": "https://forvismazarsuk.wd107.myworkdayjobs.com/en-GB/FM_1"
+  },
+  {
+   "company": "SSE",
+   "role": "Energy Markets Graduate Programme",
+   "location": "Edinburgh and The Lothians",
+   "closing": "2026-11-01",
+   "sector": "Engineering and energy",
+   "link": "https://careers.sse.com/jobs/energy-markets-graduate-edinburgh-the-lothians-scotland-united-kingdom"
+  }
+ ]
+}

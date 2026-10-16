@@ -1,0 +1,46 @@
+{
+ "stories": [
+  {
+   "id": "graduate-visa-18-months",
+   "date": "2026-10-15",
+   "publish": "2026-10-22",
+   "topic": "Visa news",
+   "icon": "calendar",
+   "headline": "Graduate visa cut to 18 months from 1 January 2027",
+   "seoTitle": "Graduate visa cut to 18 months from 1 January 2027: what international students need to know",
+   "description": "From 1 January 2027, new Graduate visas will last 18 months instead of two years. Here's who it affects, the key dates and what stays the same.",
+   "summary": "From 1 January 2027, new Graduate visas will last 18 months instead of two years. Here are the key dates and what stays the same.",
+   "intro": "If you're an international student hoping to stay in the UK after your course, there's a date worth knowing. From 1 January 2027, new Graduate visas will last 18 months instead of two years.",
+   "sections": [
+    {"h": "What's changing", "p": ["The Graduate visa lets you stay in the UK after you finish your course. At the moment it lasts two years. If you apply on or after 1 January 2027, it will last 18 months."]},
+    {"h": "The key dates", "list": ["Apply on or before 31 December 2026: your visa lasts 2 years", "Apply on or after 1 January 2027: your visa lasts 18 months", "PhD or other doctoral qualification: your visa lasts 3 years either way"]},
+    {"h": "When you can apply", "p": ["You can apply once your university or college has told the Home Office you've completed your course. You don't have to wait until your graduation ceremony or until you get your certificate. You must be in the UK when you apply, and you must apply before your Student visa expires.", "So if your course ends around the new year, the date your university confirms you've finished could make a difference to how long your visa lasts."]},
+    {"h": "What hasn't changed", "list": ["You still can't extend a Graduate visa, but you may be able to switch to another visa, such as a Skilled Worker visa.", "The application fee is £937, plus the healthcare surcharge, which is usually £1,035 for each year of your visa (as listed on gov.uk at the time of writing)."]}
+   ],
+   "sourceName": "gov.uk: Graduate visa",
+   "sourceUrl": "https://www.gov.uk/graduate-visa"
+  },
+  {
+   "id": "student-visa-savings-rise",
+   "date": "2026-10-08",
+   "publish": "2026-10-15",
+   "topic": "Visa news",
+   "icon": "pound",
+   "headline": "Student visa savings requirement rises on 30 November 2026",
+   "seoTitle": "Student visa money requirement rises on 30 November 2026: the new amounts",
+   "description": "The money you must show for a UK Student visa goes up on 30 November 2026: £1,570 a month in London and £1,203 a month elsewhere. Here are the details.",
+   "summary": "The money you must show for a Student visa is going up: £1,570 a month in London and £1,203 a month elsewhere.",
+   "intro": "If you're planning to apply for a UK Student visa, the amount of money you need to show is going up. The new amounts take effect on 30 November 2026.",
+   "sections": [
+    {"h": "What's changing", "p": ["When you apply for a Student visa, you usually have to show you have enough money to support yourself, on top of your course fees. The monthly amounts are rising:"], "list": ["Courses in London: from £1,529 to £1,570 a month", "Courses outside London: from £1,171 to £1,203 a month"]},
+    {"h": "The key date", "p": ["The new amounts take effect on 30 November 2026. Applications made before then are decided under the rules in force on 29 November 2026."]},
+    {"h": "How the money rule works", "list": ["You show the monthly amount for up to 9 months.", "You must have held the money for at least 28 days in a row.", "If you've been living in the UK with a visa for at least 12 months before you apply, you don't need to show this money."]},
+    {"h": "What to do next", "p": ["If you're planning to apply for a Student visa for a new course, check the current figures on gov.uk before you apply."]}
+   ],
+   "sourceName": "gov.uk: Statement of changes to the Immigration Rules (HC 584)",
+   "sourceUrl": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible",
+   "alsoName": "gov.uk: Student visa, money you need",
+   "alsoUrl": "https://www.gov.uk/student-visa/money"
+  }
+ ]
+}

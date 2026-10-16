@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /join/
+Disallow: /check-inbox/
+Disallow: /subscribed/
+Disallow: /thanks/
+
+Sitemap: https://kickstartyou.org/sitemap.xml
