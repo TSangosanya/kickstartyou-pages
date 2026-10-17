@@ -87,8 +87,9 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
 .newpill{display:inline-block;margin-left:8px;vertical-align:middle;font-family:'DM Sans',Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;line-height:1.5;color:var(--plum);background:var(--sun);padding:2px 10px;border-radius:999px;white-space:nowrap}
 .card .ico{width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:none}
 .card .ico svg{width:30px;height:30px;fill:none;stroke:var(--plum);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.card.green .ico{justify-content:flex-start}
-.card.green .ico svg{width:32px;height:32px;stroke:var(--green)}
+.card.green .ico{background:#B8E2C8}  /* soft green tile, same strength as the pastel tiles */
+.card.hint-green{border-top:8px solid #B8E2C8}
+.card.green .ico svg{stroke:var(--green)}
 .card.hint-lilac{border-top:8px solid var(--lilac)}
 .card.hint-lilac .ico{background:var(--lilac)}
 .card.hint-peri{border-top:8px solid var(--peri)}
