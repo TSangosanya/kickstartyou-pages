@@ -51,6 +51,8 @@ def section(s):
 
 def page(s):
     url = f'{SITE}/news/{s["id"]}/'
+    # Link previews (WhatsApp, LinkedIn, Google) use the story's image when it has one.
+    share_img = f'{SITE}/{s["image"]}' if s.get('image') else f'{SITE}/logo.png'
     share = 'https://wa.me/?text=' + urllib.parse.quote(f'{s["headline"]} {url}')
     jsonld = json.dumps({
         '@context': 'https://schema.org', '@type': 'NewsArticle',
@@ -58,11 +60,18 @@ def page(s):
         'datePublished': s['publish'], 'dateModified': s.get('updated', s['publish']),
         'author': {'@type': 'Organization', 'name': 'KickStartYou', 'url': SITE},
         'publisher': {'@type': 'Organization', 'name': 'KickStartYou', 'logo': {'@type': 'ImageObject', 'url': f'{SITE}/logo.png'}},
-        'mainEntityOfPage': url, 'image': f'{SITE}/logo.png',
+        'mainEntityOfPage': url, 'image': share_img,
     }, ensure_ascii=False)
     also = (f'<br>Also see: <a href="{e(s["alsoUrl"])}" target="_blank" rel="noopener">{e(s["alsoName"])}</a>'
             if s.get('alsoUrl') else '')
     icon = ICONS.get(s.get('icon'), ICONS['calendar'])
+    # The story's own image (made in the Wednesday prep) if it has one, otherwise the drawn card.
+    if s.get('image'):
+        picture = (f'<img class="newsimg" src="../../{e(s["image"])}" alt="{e(s["headline"])}" width="1200" height="630">')
+    else:
+        picture = f'''<div class="newsimg" role="img" aria-label="{e(s["headline"])}"><div class="in"><div class="l">
+<div><span class="lab">{e(s["topic"])}</span><div class="hl">{e(s["headline"])}</div></div></div>
+<div class="r"><div class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="#4b1e78" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{icon}</svg></div></div></div></div>'''
     body = '\n'.join(section(x) for x in s['sections'])
     return f'''<!DOCTYPE html>
 <html lang="en-GB">
@@ -77,8 +86,8 @@ def page(s):
 <meta property="og:title" content="{e(s["headline"])}">
 <meta property="og:description" content="{e(s["description"])}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{SITE}/logo.png">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{share_img}">
+<meta name="twitter:card" content="{'summary_large_image' if s.get('image') else 'summary'}">
 <meta property="article:published_time" content="{s["publish"]}">
 <script type="application/ld+json">{jsonld}</script>
 <link rel="icon" href="../../logo.png">
@@ -103,9 +112,7 @@ def page(s):
 <p class="eyebrow"><a href="../">News</a> · {pretty(s["date"])} · From The Weekly Kick</p>
 <span class="tag solid">{e(s["topic"])}</span>
 <h1 class="story-title">{e(s["headline"])}</h1>
-<div class="newsimg" role="img" aria-label="{e(s["headline"])}"><div class="in"><div class="l">
-<div><span class="lab">{e(s["topic"])}</span><div class="hl">{e(s["headline"])}</div></div></div>
-<div class="r"><div class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="#4b1e78" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{icon}</svg></div></div></div></div>
+{picture}
 <div class="body">
 <p class="intro-p">{e(s["intro"])}</p>
 {body}

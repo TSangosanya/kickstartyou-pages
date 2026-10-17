@@ -23,7 +23,10 @@
   const storyUrl = (s) => BASE + 'news/' + encodeURIComponent(s.id) + '/';
   const shareUrl = (s) => 'https://wa.me/?text=' + encodeURIComponent(s.headline + ' https://kickstartyou.org/news/' + s.id + '/');
 
-  const image = (s) => `<div class="newsimg" role="img" aria-label="${esc(s.headline)}"><div class="in"><div class="l">
+  // The story's own image (made in the Wednesday prep) if it has one, otherwise the drawn card.
+  const image = (s) => s.image
+    ? `<img class="newsimg" src="${BASE + esc(s.image)}" alt="${esc(s.headline)}" width="1200" height="630" loading="lazy">`
+    : `<div class="newsimg" role="img" aria-label="${esc(s.headline)}"><div class="in"><div class="l">
 <div><span class="lab">${esc(s.topic)}</span><div class="hl">${esc(s.headline)}</div></div></div>
 <div class="r"><div class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="#4b1e78" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[s.icon] || ICONS.calendar}</svg></div></div></div></div>`;
 
@@ -32,6 +35,11 @@
     .then(([data, built]) => {
       // Without the built list (an older build), fall back to the publish date.
       const live = built ? new Set(built.ids) : null;
+      // Each story's colour, the same rotation scripts/news_image.py uses for its image
+      // (Lilac, Tangerine, Periwinkle, Sunshine, Rose, in order of edition date), so the tag matches the picture.
+      const PASTELS = ['#C9B3EC', '#FFC48A', '#AFC4F5', '#F5D57A', '#F7C6DC'];
+      data.stories.slice().sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id))
+        .forEach((s, n) => { s.colour = PASTELS[n % PASTELS.length]; });
       const stories = data.stories
         .filter((s) => preview || (live ? live.has(s.id) : parse(s.publish) <= today))
         .sort((a, b) => parse(b.publish) - parse(a.publish));
@@ -52,7 +60,7 @@
     if (featured) {
       featured.innerHTML = latest ? `<div class="featured"><div>${image(latest)}</div><div>
 <span class="eyebrow" style="margin:0">Latest · ${pretty(latest.date)}</span>
-<span class="tag solid">${esc(latest.topic)}</span>
+<span class="tag pastel" style="background:${latest.colour}">${esc(latest.topic)}</span>
 <span class="ftitle">${esc(latest.headline)}</span>
 <span style="font-size:18px">${esc(latest.summary)}</span>
 <span class="small">Source: ${esc(latest.sourceName)}</span>
@@ -64,7 +72,7 @@
       const rest = stories.slice(1);
       earlier.hidden = rest.length === 0;
       earlier.querySelector('.cards').innerHTML = rest.map((s) => `<div class="card">${image(s)}
-<span class="small">${pretty(s.date)}</span><span class="tag" style="align-self:flex-start;margin:0">${esc(s.topic)}</span>
+<span class="small">${pretty(s.date)}</span><span class="tag pastel" style="align-self:flex-start;margin:0;background:${s.colour}">${esc(s.topic)}</span>
 <span style="font-size:21px;font-weight:700">${esc(s.headline)}</span><span>${esc(s.summary)}</span>
 <span class="small">Source: ${esc(s.sourceName)}</span>
 <div class="row" style="justify-content:space-between;align-items:center;margin-top:auto"><a href="${storyUrl(s)}" class="go">Read more</a><a href="${shareUrl(s)}" target="_blank" rel="noopener" style="font-weight:700;color:var(--green)">Share on WhatsApp</a></div></div>`).join('');

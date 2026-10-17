@@ -30,7 +30,7 @@
 <p>We'd like to use cookies to see which roles people find most useful, so we can find more like them. Nothing runs unless you accept. <a href="${legal}#cookies">Cookie policy</a></p>
 <div class="row"><button type="button" style="background:transparent;color:#fff" data-consent="no">Reject</button><button type="button" style="background:#fff;color:#1a1a1a" data-consent="yes">Accept</button></div>
 </div>
-<button type="button" class="sidetab" id="sidetab" hidden data-open-signup><svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Never miss a role</button>
+<button type="button" class="sidetab" id="sidetab" hidden data-open-signup><svg class="ico-mail" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><svg class="ico-bell" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2-3v-3a7 7 0 0 1 4-6"/><path d="M9 17v1a3 3 0 0 0 6 0v-1"/></svg>Never miss a role</button>
 <div class="overlay" id="popup" role="dialog" aria-modal="true" aria-labelledby="pp-title" hidden>
 <div class="modal">
 <button type="button" class="close" aria-label="Close" data-close>✕</button>
@@ -305,7 +305,7 @@
   // ---------- side tab and automatic pop-up ----------
   function showTab() { if (!subscribed()) $('sidetab').hidden = false; }
   if (cookieDone) showTab();
-  else if (window.innerWidth > 700) setTimeout(showTab, 1500);
+  else if (window.innerWidth > 1023) setTimeout(showTab, 1500);  // phones and tablets wait for the cookie choice (corner button would sit on the banner)
   // On phones the tab sits in the corner with its words until the first scroll, then shrinks to the envelope;
   // it tucks away once the footer is in view
   const foot = document.querySelector('footer.site');
@@ -323,6 +323,9 @@
   let autoShown = false, autoWanted = false, autoTimer = null;
   function autoPopup() {
     if (autoShown || subscribed() || store.get('popup-seen') === '1') return;
+    // Phones never get the automatic pop-up: Google ranks pages lower when a pop-up covers them on phones.
+    // Phone visitors use the corner button or the Subscribe buttons instead.
+    if (window.matchMedia('(max-width:700px)').matches) return;
     if (!cookieDone) { autoWanted = true; return; }
     const wait = GAP_AFTER_COOKIES - (Date.now() - cookieTime);
     if (cookieTime && wait > 0) { clearTimeout(autoTimer); autoTimer = setTimeout(autoPopup, wait); return; }

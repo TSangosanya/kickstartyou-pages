@@ -1,4 +1,6 @@
-:root{--purple:#4b1e78;--deep:#3a165e;--lav:#a98bdc;--lav2:#e2d9f2;--light:#f4f0fa;--ink:#1a1a1a;--muted:#4d4659;--green:#146c43;--greenbg:#e8f5ee;--red:#b42318}
+:root{--purple:#4b1e78;--deep:#3a165e;--lav:#a98bdc;--lav2:#e2d9f2;--light:#f4f0fa;--ink:#1a1a1a;--muted:#4d4659;--green:#146c43;--greenbg:#e8f5ee;--red:#b42318;
+ /* pastel hints, from the confirmed designs (WhatsApp, LinkedIn and news images) */
+ --lilac:#C9B3EC;--tang:#FFC48A;--peri:#AFC4F5;--sun:#F5D57A;--rose:#F7C6DC;--plum:#2E0F4D;--circle:#5E2C94}
 *{box-sizing:border-box}
 body{margin:0;font-family:'DM Sans',Arial,sans-serif;color:var(--ink);background:#fff;font-size:17px;line-height:1.55}
 a{color:var(--purple)}
@@ -72,6 +74,26 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
 .strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;border-radius:12px;padding:18px 22px}
 .strip p{margin:0;font-weight:600;flex:1 1 220px}
 
+/* pastel hints: the soft circle in purple headers and the Home band, pills, and the Home card tiles */
+.hero,.pagehead,.band.circled{position:relative;overflow:hidden}
+.hero::before,.pagehead::before,.band.circled::before{content:"";position:absolute;border-radius:50%;background:var(--circle);pointer-events:none}
+.hero::before{width:560px;height:560px;right:-180px;top:-120px}
+.pagehead::before{width:460px;height:460px;right:-140px;top:-160px}
+.band.circled::before{width:420px;height:420px;right:-120px;top:-140px}
+.hero .wrap,.pagehead .wrap,.band.circled>*{position:relative}
+.cards.quick{position:relative}  /* Home's cards overlap the hero; keep them on top of it */
+.pastelpill{display:inline-block;margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--plum);background:var(--peri);padding:6px 12px;border-radius:999px}
+.pagehead .pastelpill{background:var(--sun);margin-bottom:16px}
+.newpill{display:inline-block;margin-left:8px;vertical-align:middle;font-family:'DM Sans',Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;line-height:1.5;color:var(--plum);background:var(--sun);padding:2px 10px;border-radius:999px;white-space:nowrap}
+.card .ico{width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:none}
+.card .ico svg{width:30px;height:30px;fill:none;stroke:var(--plum);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card.green .ico{justify-content:flex-start}
+.card.green .ico svg{width:32px;height:32px;stroke:var(--green)}
+.card.hint-lilac{border-top:8px solid var(--lilac)}
+.card.hint-lilac .ico{background:var(--lilac)}
+.card.hint-peri{border-top:8px solid var(--peri)}
+.card.hint-peri .ico{background:var(--peri)}
+
 /* roles */
 .tablebox{overflow-x:auto;border:2px solid var(--lav2);border-radius:12px}
 .rtable{width:100%;border-collapse:collapse;min-width:760px}
@@ -81,7 +103,9 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
 .rtable td.ap{text-align:right}
 .tag{display:inline-block;margin-top:6px;font-size:13px;font-weight:700;background:var(--light);color:var(--purple);padding:2px 8px;border-radius:4px}
 .tag.grey{background:#e4e1e8;color:#3d3742}
-.tag.new{background:#fff4cc;color:#6b5200;margin:0 0 6px}
+.tag.new{background:var(--sun);color:var(--plum);margin:0 0 6px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:2px 10px;border-radius:999px}
+.tag.hot{background:var(--tang);color:var(--plum);padding:2px 10px;border-radius:999px}
+.tag.pastel{color:var(--plum);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:3px 10px;border-radius:999px}
 .tag.solid{background:var(--purple);color:#fff;margin:0}
 .urgent{display:block;font-size:14px;color:#8a3b00;font-weight:600}
 .rnote{display:block;margin-top:6px;font-size:14px;color:var(--muted)}
@@ -99,6 +123,7 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
 .field input,.field select{font:inherit;padding:11px 12px;border:2px solid #c9bde0;border-radius:6px;min-height:48px;background:#fff}
 .chip{font:inherit;font-size:15px;font-weight:700;min-height:48px;padding:0 18px;border-radius:24px;cursor:pointer;border:2px solid var(--purple);background:#fff;color:var(--purple)}
 .chip[aria-pressed="true"],.chip[aria-selected="true"]{background:var(--purple);color:#fff}
+#f-week[aria-pressed="true"],#f-closed[aria-pressed="true"]{background:var(--sun);color:var(--plum);border-color:var(--plum)}
 .filtbtn{display:none}
 .morefilters{display:contents}
 /* phones and small tablets: each role is a compact card (company, role, then location, date and Apply on one line) */
@@ -130,6 +155,7 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
 .newsimg .r{width:25%;display:flex;align-items:center}
 .newsimg .circ{width:100%;aspect-ratio:1;border-radius:50%;background:var(--lav);display:flex;align-items:center;justify-content:center}
 .newsimg .circ svg{width:55%;height:55%}
+img.newsimg{display:block;width:100%;height:auto;object-fit:cover}
 .featured{display:flex;flex-wrap:wrap;gap:32px;background:var(--light);border-radius:16px;padding:32px}
 .featured>div:first-child{flex:1 1 340px}
 .featured>div:last-child{flex:999 1 380px;display:flex;flex-direction:column;gap:12px;justify-content:center;align-items:flex-start}
@@ -165,6 +191,10 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
 .sidetab{position:fixed;right:0;top:50%;z-index:30;display:flex;align-items:center;gap:12px;background:var(--lav);color:var(--ink);border:none;border-radius:0 10px 10px 0;padding:22px 14px;font:inherit;font-size:17px;font-weight:700;cursor:pointer;writing-mode:vertical-rl;transform:translateY(-50%) rotate(180deg);box-shadow:0 6px 18px rgba(0,0,0,.25);animation:tabin .6s ease-out}
 .sidetab:hover{background:#fff}
 .sidetab svg{width:22px;height:22px;transform:rotate(90deg)}
+/* the side tab shows the envelope on computers; the round corner button on phones and tablets shows a bell
+   (an envelope there read as "contact us" rather than "subscribe") */
+.sidetab .ico-bell{display:none}
+@media (max-width:1023px){.sidetab .ico-mail{display:none}.sidetab .ico-bell{display:block}}
 @keyframes tabin{from{opacity:0;margin-right:-60px}to{opacity:1;margin-right:0}}
 @keyframes popin{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
 /* phones: a round envelope button in the corner (the words stay for screen readers), hidden once the footer is in view */
@@ -245,8 +275,16 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
  .cards.quick{gap:0;border:2px solid var(--lav2);border-radius:12px;background:#fff;overflow:hidden}
  .cards.quick .card{flex-direction:row;align-items:center;justify-content:space-between;gap:12px;border:none;border-radius:0;padding:16px 18px;border-top:1px solid var(--lav2)}
  .cards.quick .card:first-child{border-top:none}
- .cards.quick .card>span:nth-child(2){display:none}
+ .cards.quick .card>span:nth-of-type(2){display:none}
  .cards.quick .card .t{font-size:19px;white-space:nowrap}
+ /* pastel hints on phones: smaller circles, small icon tiles, no coloured top edge (the cards are one box), the new-roles count only on the Roles page */
+ .cards.quick .card .ico{width:36px;height:36px;border-radius:10px}
+ .cards.quick .card .ico svg{width:20px;height:20px}
+ .cards.quick .card .ico+.t{flex:1;min-width:0}
+ .cards.quick .card .newpill{display:none}
+ .hero::before{width:300px;height:300px;right:-150px;top:-120px}
+ .pagehead::before{width:240px;height:240px;right:-120px;top:-120px}
+ .band.circled::before{width:240px;height:240px;right:-110px;top:-120px}
  .cards.quick .card .go{white-space:nowrap;font-size:15px}
  #soon tr:nth-child(n+3){display:none}
  .pager .chip:not(:first-child):not(:last-child){display:none}
@@ -318,4 +356,42 @@ footer.site .bottom{margin:44px 0 0;padding-top:22px;border-top:1px solid #3d374
 @media (max-width:700px){
  body:has(#all) .sidetab{display:none}
  .seeall,.news-sub{display:none}
+}
+
+/* tablets held upright (701 to 1023px wide) */
+@media (min-width:701px) and (max-width:1023px){
+ /* Home and About: the three cards sit in one row */
+ .cards.quick{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+ .cards.quick .card{padding:18px}
+ .cards.quick .card .t{font-size:21px}
+ .cards.quick .card>span:nth-of-type(2){font-size:15px;line-height:1.45}
+ .card .ico{width:48px;height:48px;border-radius:12px}
+ .card .ico svg{width:26px;height:26px}
+ /* the side tab becomes the phone's corner button, and stays off the Roles page */
+ .sidetab{writing-mode:horizontal-tb;transform:none;top:auto;bottom:20px;right:20px;height:52px;padding:0 18px;gap:8px;justify-content:center;border-radius:26px;font-size:15px;white-space:nowrap;animation:popin .4s ease-out;transition:opacity .2s,transform .2s}
+ .sidetab.mini{width:56px;height:56px;padding:0;gap:0;border-radius:50%;font-size:0}
+ .sidetab svg{transform:none;width:24px;height:24px}
+ .sidetab.away{opacity:0;transform:scale(.6);pointer-events:none}
+ body:has(#all) .sidetab{display:none}
+ /* About: the photo sits beside the bio instead of above it */
+ .founder-sec{flex-wrap:nowrap!important;gap:32px!important}
+ .photo.founder{flex:0 0 220px;max-width:220px}
+ .founder-sec>div:last-child{flex:1 1 0;min-width:0}
+ /* Roles: filters in tidy pairs, with both buttons together on the last line */
+ .filters>.field:first-child{flex:1 1 calc(50% - 6px)!important}
+ .morefilters .field{flex:1 1 calc(50% - 6px)}
+ .morefilters .chip{flex:0 0 auto}
+}
+/* tablets held upright: footer like phones, logo on top, then Follow and Contact side by side */
+@media (min-width:701px) and (max-width:1023px){
+ footer.site .cols{grid-template-columns:1fr 1fr;gap:28px 40px}
+ footer.site .cols>:first-child{grid-column:1/-1}
+}
+/* tablets held upright: smaller logo with the menu beside it on one line */
+@media (min-width:701px) and (max-width:1023px){
+ header.site .wrap{flex-wrap:nowrap;padding-top:4px;padding-bottom:4px}
+ header.site .logo img{height:84px;margin:-18px 0 -10px -10px}
+ nav.main{flex-wrap:nowrap;gap:0 18px}
+ nav.main a{font-size:15px;white-space:nowrap}
+ nav.main .btn{padding:9px 14px;font-size:14px}
 }
