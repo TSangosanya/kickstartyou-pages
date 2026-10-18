@@ -183,10 +183,25 @@ img.newsimg{display:block;width:100%;height:auto;object-fit:cover}
 .legal ul{margin:0 0 10px;padding-left:22px;color:#3d3742}
 
 /* cookie banner */
-.cookie{position:fixed;left:16px;right:16px;bottom:16px;max-width:760px;margin:0 auto;background:var(--ink);color:#fff;border-radius:10px;padding:20px 24px;display:flex;flex-wrap:wrap;align-items:center;gap:16px;z-index:40}
-.cookie p{margin:0;flex:1 1 320px;font-size:15px}
-.cookie a{color:var(--lav2)}
-.cookie button{min-height:46px;padding:0 22px;border:2px solid #fff;border-radius:6px;font:inherit;font-weight:700;cursor:pointer}
+/* the confirmed design (option C): lavender card in the middle of the bottom, purple border, the site's heading font.
+   Accept all and Reject all are always the same size and colour (UK rules). */
+.cookie{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);width:min(560px,calc(100% - 32px));background:var(--light);color:var(--ink);border:2px solid var(--purple);border-radius:14px;padding:20px 22px;box-shadow:0 10px 30px rgba(0,0,0,.28);z-index:40}
+.cookie p{margin:0 0 14px;font-size:15px;line-height:1.45}
+.cookie .ck-t{font-family:'Anton',Impact,sans-serif;text-transform:uppercase;font-size:26px;line-height:1.05;color:var(--purple);margin:0 40px 8px 0}
+.cookie .ck-x{position:absolute;top:12px;right:12px;width:28px;height:28px;padding:0;display:grid;place-items:center;border-radius:50%;border:0;background:transparent;color:var(--purple);font-size:13px;line-height:1;cursor:pointer}
+.cookie .ck-btns{display:flex;gap:8px}
+.cookie .ck-btns>*{flex:1 1 0;min-width:0;min-height:46px;display:flex;align-items:center;justify-content:center;padding:0 8px;border:2px solid var(--ink);border-radius:6px;font:inherit;font-size:15px;font-weight:700;text-decoration:none;white-space:nowrap;cursor:pointer}
+.cookie .ck-yes,.cookie .ck-no{background:var(--ink);color:#fff}
+.cookie .ck-more{background:#fff;color:var(--ink)}
+.cookie .ck-x:focus-visible,.cookie .ck-btns>*:focus-visible{outline:3px solid var(--lav);outline-offset:2px}
+/* phones: across the bottom, Reject all and Accept all side by side, More info underneath */
+@media (max-width:700px){
+ .cookie{left:8px;right:8px;bottom:8px;width:auto;transform:none;padding:16px 16px 14px}
+ .cookie .ck-t{font-size:24px}
+ .cookie .ck-btns{flex-wrap:wrap}
+ .cookie .ck-btns>*{flex:1 1 40%}
+ .cookie .ck-no{order:1}.cookie .ck-yes{order:2}.cookie .ck-more{order:3;flex-basis:100%}
+}
 
 /* side tab */
 .sidetab{position:fixed;right:0;top:50%;z-index:30;display:flex;align-items:center;gap:12px;background:var(--lav);color:var(--ink);border:none;border-radius:0 10px 10px 0;padding:22px 14px;font:inherit;font-size:17px;font-weight:700;cursor:pointer;writing-mode:vertical-rl;transform:translateY(-50%) rotate(180deg);box-shadow:0 6px 18px rgba(0,0,0,.25);animation:tabin .6s ease-out}

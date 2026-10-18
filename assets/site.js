@@ -26,9 +26,11 @@
   // ---------- markup added to every page ----------
   const legal = BASE + 'legal/';
   document.body.insertAdjacentHTML('beforeend', `
-<div class="cookie" id="cookie" role="region" aria-label="Cookie choices" hidden>
-<p>We'd like to use cookies to see which roles people find most useful, so we can find more like them. Nothing runs unless you accept. <a href="${legal}#cookies">Cookie policy</a></p>
-<div class="row"><button type="button" style="background:transparent;color:#fff" data-consent="no">Reject</button><button type="button" style="background:#fff;color:#1a1a1a" data-consent="yes">Accept</button></div>
+<div class="cookie" id="cookie" role="region" aria-labelledby="ck-title" hidden>
+<button type="button" class="ck-x" aria-label="Close" data-cookie-later>✕</button>
+<p class="ck-t" id="ck-title">Can we use cookies?</p>
+<p>They show us which roles you click on, so we can find more like them.</p>
+<div class="ck-btns"><a class="ck-more" href="${legal}#cookies">More info</a><button type="button" class="ck-yes" data-consent="yes">Accept all</button><button type="button" class="ck-no" data-consent="no">Reject all</button></div>
 </div>
 <button type="button" class="sidetab" id="sidetab" hidden data-open-signup><svg class="ico-mail" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><svg class="ico-bell" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2-3v-3a7 7 0 0 1 4-6"/><path d="M9 17v1a3 3 0 0 0 6 0v-1"/></svg>Never miss a role</button>
 <div class="overlay" id="popup" role="dialog" aria-modal="true" aria-labelledby="pp-title" hidden>
@@ -205,13 +207,14 @@
     if (lastFocus) lastFocus.focus();
   }
   document.addEventListener('click', (e) => {
-    const t = e.target.closest('[data-open-signup],[data-close],[data-step],[data-cookie-settings],[data-consent]');
+    const t = e.target.closest('[data-open-signup],[data-close],[data-step],[data-cookie-settings],[data-consent],[data-cookie-later]');
     if (!t) return;
     if (t.matches('[data-open-signup]')) { e.preventDefault(); openPopup(); }
     else if (t.matches('[data-close]')) closePopup();
     else if (t.matches('[data-step]')) step(t.dataset.step);
     else if (t.matches('[data-cookie-settings]')) { e.preventDefault(); $('cookie').hidden = false; }
     else if (t.matches('[data-consent]')) consent(t.dataset.consent === 'yes');
+    else if (t.matches('[data-cookie-later]')) cookieLater();
   });
   popup.addEventListener('click', (e) => { if (e.target === popup) closePopup(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !popup.hidden) closePopup(); });
@@ -289,7 +292,20 @@
     if (a && window.gtag) window.gtag('event', 'apply_click', { company: a.dataset.company, role: a.dataset.role });
   });
 
-  let cookieDone = !!store.get('consent'), cookieTime = 0;
+  // The X on the cookie banner means "not now": nothing runs, and the banner comes back on the next visit
+  // (remembered for this browser tab only).
+  const later = { get() { try { return sessionStorage.getItem('ksy-cookie-later') === '1'; } catch (e) { return false; } },
+                  set() { try { sessionStorage.setItem('ksy-cookie-later', '1'); } catch (e) { /* fine */ } } };
+  let cookieDone = !!store.get('consent') || later.get(), cookieTime = 0;
+  function cookieLater() {
+    const first = !cookieDone;
+    later.set();
+    $('cookie').hidden = true;
+    cookieDone = true;
+    if (first) cookieTime = Date.now();
+    showTab();
+    if (autoWanted) autoPopup();
+  }
   function consent(yes) {
     const first = !cookieDone;
     store.set('consent', yes ? 'yes' : 'no');
