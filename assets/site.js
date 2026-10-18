@@ -341,6 +341,15 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   setTimeout(autoPopup, POPUP_AFTER);
 
+  // Arriving from kickstartyou.org/join/ (QR code, WhatsApp, LinkedIn): open the sign-up straight away,
+  // on phones too, since the visitor asked for it. Then tidy the address so a refresh doesn't reopen it.
+  if (/[?&]join(=|&|$)/.test(location.search)) {
+    autoShown = true;
+    openPopup();
+    const rest = location.search.replace(/([?&])join(=[^&]*)?(&|$)/, '$1').replace(/[?&]$/, '');
+    try { history.replaceState(null, '', location.pathname + rest + location.hash); } catch (e) { /* fine */ }
+  }
+
   // Shared helper for the roles and news scripts.
   window.KSY.esc = (t) => String(t == null ? '' : t).replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 })();
