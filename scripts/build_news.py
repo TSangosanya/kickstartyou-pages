@@ -123,8 +123,8 @@ def page(s):
 <div class="row" style="margin-top:20px"><a class="btn btn-green" target="_blank" rel="noopener" href="{share}">Share on WhatsApp</a><a class="btn" style="border-color:var(--purple);color:var(--purple)" href="../">More news</a></div>
 </article>
 
-<section class="wrap section"><div class="band">
-<div><h2>Read it a week early</h2><p>Why wait a week? Subscribers get every story first, along with the roles you can't miss. Free, every Thursday.</p></div>
+<section class="wrap section"><div class="band circled">
+<div><span class="pastelpill">Free · Every Thursday</span><h2>Read it <span style="color:var(--peri)">a week early</span></h2><p>Why wait a week? Subscribers get every story first, along with the roles you can't miss. Free, every Thursday.</p></div>
 <a href="#" class="btn btn-white" data-open-signup>Subscribe</a>
 </div></section>
 </main>
