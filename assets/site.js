@@ -2,8 +2,8 @@
 // the sign-up pop-up and the "Never miss a role" side tab.
 (function () {
   const CONFIG = {
-    GA_ID: '',          // Google Analytics measurement ID (G-XXXXXXX). Empty = not loaded.
-    CLARITY_ID: '',     // Microsoft Clarity project ID. Empty = not loaded.
+    GA_ID: 'G-ZR0EX5Y8KZ', // Google Analytics measurement ID (G-XXXXXXX). Empty = not loaded.
+    CLARITY_ID: 'yzif9mgw9j', // Microsoft Clarity project ID. Empty = not loaded.
     SIGNUP_READY: true, // false pauses sign-ups: nothing is sent.
     SIGNUP_URL: 'https://ksy-signup.tsangosanya.workers.dev' // the Cloudflare middleman that passes answers to Brevo
   };
@@ -280,6 +280,7 @@
         const t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
         l.head.append(t);
       })(window, document, 'clarity', 'script', CONFIG.CLARITY_ID);
+      window.clarity('consent'); // only reached after Accept; Clarity needs this signal for UK visitors
     }
   }
   // Click counts for Apply buttons (only reach Google Analytics after Accept).
