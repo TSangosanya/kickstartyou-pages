@@ -12,7 +12,8 @@ h1,h2{font-family:'Anton',Impact,sans-serif;font-weight:400;text-transform:upper
 .skip:focus{left:16px;top:16px;z-index:100;background:#fff;padding:10px 14px}
 
 /* header and footer */
-header.site{background:var(--purple)}
+/* a shade darker than the purple below it, with a lavender line, so the logo and menu stand apart (every screen size) */
+header.site{background:var(--deep);border-bottom:3px solid var(--lav)}
 header.site .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px;padding-top:8px;padding-bottom:8px}
 header.site .logo img{height:112px;width:auto;display:block;margin:-24px 0 -14px -14px}
 nav.main{display:flex;flex-wrap:wrap;align-items:center;gap:4px 24px}
@@ -283,10 +284,9 @@ img.newsimg{display:block;width:100%;height:auto;object-fit:cover}
 @media (max-width:359px){nav.main{flex-wrap:wrap}nav.main .btn{margin-left:0}}
 .short{display:none}
 .pgof,.allbtn{display:none}
-/* phones: header a shade darker so it stands apart from the hero; the three home cards become one box;
+/* phones: the three home cards become one box;
    two closing-soon roles on Home; the roles pager shows Previous, the current page and Next */
 @media (max-width:700px){
- header.site{background:var(--deep);border-bottom:3px solid var(--lav)}
  .short{display:inline}
  .cards.quick{gap:0;border:2px solid var(--lav2);border-radius:12px;background:#fff;overflow:hidden}
  .cards.quick .card{flex-direction:row;align-items:center;justify-content:space-between;gap:12px;border:none;border-radius:0;padding:16px 18px;border-top:1px solid var(--lav2)}
