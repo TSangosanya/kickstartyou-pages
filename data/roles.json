@@ -1,6 +1,44 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-19",
  "roles": [
+  {
+   "company": "Barclays",
+   "role": "Banking Graduate Programme 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://search.jobs.barclays/job/london/banking-graduate-programme-2027-london/13015/99885319536",
+   "added": "2026-10-19"
+  },
+  {
+   "company": "Barclays",
+   "role": "2027 Quantitative Analytics Associate Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-31",
+   "sector": "Finance and banking",
+   "note": "Needs a Master's degree or higher by June 2027.",
+   "link": "https://search.jobs.barclays/job/london/2027-quantitative-analytics-associate-graduate-programme-london/13015/100411086288",
+   "added": "2026-10-19"
+  },
+  {
+   "company": "Optiver",
+   "role": "Graduate Quantitative Researcher (2027 Start)",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://www.optiver.com/join-us/jobs/8585609002/",
+   "added": "2026-10-19"
+  },
+  {
+   "company": "Optiver",
+   "role": "Graduate Software Engineer",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Can't re-apply within 8 months of a recent Optiver assessment.",
+   "link": "https://www.optiver.com/join-us/jobs/8561859002/",
+   "added": "2026-10-19"
+  },
   {
    "company": "Viridien",
    "role": "IT Support (Graduate) - Services Team",
