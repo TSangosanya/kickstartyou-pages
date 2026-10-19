@@ -131,7 +131,7 @@ def page(s):
 
 <footer class="site"><div class="wrap">
 <div class="cols">
-<div><img src="../../assets/logo-white.png" alt="KickStartYou" width="187" height="78" style="height:78px;width:auto;display:block;margin-left:-12px"><p style="margin:8px 0 0;color:#d6d0de;font-size:15px">Free career support for Black African and Caribbean international students in the UK.</p></div>
+<div><img src="../../assets/logo-white.png" alt="KickStartYou" width="187" height="78" style="height:78px;width:auto;display:block;margin-left:-12px"><p style="margin:8px 0 0;color:#d6d0de;font-size:15px">Free career support for international students from the African and Caribbean diaspora in the UK.</p></div>
 <div class="col"><p class="h">Follow</p><a href="{WHATSAPP}" target="_blank" rel="noopener">WhatsApp channel</a><a href="https://www.linkedin.com/in/toluwani-sangosanya" target="_blank" rel="noopener">LinkedIn</a><a href="#" data-open-signup>The Weekly Kick</a></div>
 <div class="col"><p class="h">Contact</p><a href="mailto:toluwani@kickstartyou.org">toluwani@kickstartyou.org</a><a href="../../legal/#privacy">Privacy</a><a href="../../legal/#terms">Terms</a><a href="../../legal/#cookies">Cookie policy</a><button type="button" data-cookie-settings>Cookie settings</button></div>
 </div>
