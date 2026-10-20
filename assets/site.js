@@ -81,7 +81,7 @@
 <div class="ul plain"><label for="m-city">Which city are you based in? <span class="req">*</span></label><input id="m-city"><div class="checks" style="margin-top:6px"><label><input type="checkbox" data-pns="m-city">Prefer not to say</label></div></div>
 <div class="ul plain"><label for="m-country">Which country is home for you? <span class="req">*</span></label><input id="m-country"><div class="checks" style="margin-top:6px"><label><input type="checkbox" data-pns="m-country">Prefer not to say</label></div><p class="small" style="margin:8px 0 0;font-size:14px"><span class="req">*</span> Your city and home country help us make sure KickStartYou reflects everyone it's for, including the culture events in The Weekly Kick.</p></div>
 <div class="ul plain"><label for="m-uni">Which university are you at, or did you graduate from? <span class="req">*</span></label><input id="m-uni"><div class="checks" style="margin-top:6px"><label><input type="checkbox" data-pns="m-uni">Prefer not to say</label></div></div>
-<div class="ul plain"><label for="m-heard">How did you hear about KickStartYou? <span class="req">*</span></label><select id="m-heard"><option value="">Choose one</option><option>LinkedIn</option><option>WhatsApp</option><option>A friend</option><option>My university</option><option>An event</option><option>Google</option><option>Other</option></select></div>
+<div class="ul plain"><label for="m-heard">How did you hear about KickStartYou? <span class="req">*</span></label><select id="m-heard"><option value="">Choose one</option><option>LinkedIn</option><option>WhatsApp</option><option>A friend</option><option>My university</option><option>An event</option><option>Google</option><option>Other</option></select><div class="ul othertxt" id="m-heardother-box" hidden><label for="m-heardother">Where did you hear about us?</label><input id="m-heardother"></div></div>
 <div style="display:flex;flex-direction:column;gap:6px"><label for="m-else" style="font-weight:700">Anything else you'd want help with? <span style="font-weight:400;color:var(--muted)">(optional)</span></label><textarea id="m-else" rows="4" style="font:inherit;border:2px solid #c9bde0;border-radius:6px;padding:10px 12px"></textarea></div>
 </div>
 <button type="button" class="bigbtn" id="more-submit">Send my answers</button>
@@ -89,7 +89,7 @@
 <p class="small" style="margin:12px 0 0;font-size:13px;text-align:center">Your answers are covered by our <a href="${legal}#privacy">privacy note</a>.</p>
 </div>
 <div id="pp-thanks" hidden>
-<h2>Thank you.</h2>
+<h2>Thank you!</h2>
 <p class="intro">Your answers help shape what we build next.</p>
 <button type="button" class="bigbtn" data-close>Back to the site</button>
 </div>
@@ -166,7 +166,8 @@
       const pns = document.querySelector(`[data-pns="${id}"]`).checked;
       flag($(id).parentElement, pns || $(id).value.trim() ? '' : 'Fill this in, or tick "Prefer not to say"');
     });
-    flag($('m-heard').parentElement, $('m-heard').value ? '' : 'Choose one');
+    flag($('m-heard').parentElement, !$('m-heard').value ? 'Choose one'
+      : $('m-heard').value === 'Other' && !$('m-heardother').value.trim() ? 'Tell us where you heard about us' : '');
     if (first) { first.scrollIntoView({ block: 'center' }); return; }
     const picked = (key) => [...document.querySelectorAll(`[data-checks="${key}"] input:checked`)].map((b) => b.parentElement.textContent);
     const otherOf = (key) => document.querySelector(`[data-checks="${key}"]`).parentElement.querySelector('.othertxt input').value.trim();
@@ -177,13 +178,18 @@
       types: picked('types'), typesOther: otherOf('types'),
       challenges: picked('challenges'), challengesOther: otherOf('challenges'),
       city: typed('m-city'), country: typed('m-country'), uni: typed('m-uni'),
-      heard: $('m-heard').value, anythingElse: $('m-else').value.trim()
+      heard: $('m-heard').value, heardOther: $('m-heard').value === 'Other' ? $('m-heardother').value.trim() : '',
+      anythingElse: $('m-else').value.trim()
     });
     if (!res) return;
     store.set('pass', '');
     step('thanks');
   }
   $('more-submit').addEventListener('click', checkMore);
+  $('m-heard').addEventListener('change', (e) => {
+    $('m-heardother-box').hidden = e.target.value !== 'Other';
+    if (e.target.value === 'Other') $('m-heardother').focus();
+  });
   $('pp-more').addEventListener('input', (e) => {
     const block = e.target.closest('#pp-more .fields > div');
     if (block) moreError(block, '');
