@@ -98,6 +98,7 @@
         : 'Showing 0 roles';
       allBody.innerHTML = shown.map(row).join('');
       $('empty').hidden = list.length > 0;
+      $('endmore').hidden = !list.length || st.page !== pages; // under the last page, for people who looked through everything
       const pager = $('pager');
       pager.hidden = pages < 2;
       pager.innerHTML = `<button type="button" class="chip" data-page="${st.page - 1}" ${st.page === 1 ? 'disabled' : ''}>Previous</button>`
