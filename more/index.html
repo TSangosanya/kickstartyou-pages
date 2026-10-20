@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tell us a bit more | KickStartYou</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Tell us your sector and what you need most right now. It takes about a minute.">
+<link rel="icon" href="../logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+<script>
+  // A private link from the emails (?c=...) is read here, then taken out of the address before anything else loads.
+  (function () {
+    var m = /[?&]c=([^&#]*)/.exec(location.search);
+    window.KSY_MORE_CODE = m ? decodeURIComponent(m[1]) : '';
+    if (m) { try { history.replaceState(null, '', location.pathname + location.hash); } catch (e) { /* fine */ } }
+  })();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../" aria-label="KickStartYou home"><img src="../assets/logo-white.png" alt="KickStartYou" width="269" height="112"></a>
+<nav class="main" aria-label="Main">
+<a href="../roles/">Roles tracker</a><a href="../news/">News</a><a href="../about/">About</a>
+<a href="#" class="btn btn-white" data-open-signup>Subscribe<span class="long"> to The Weekly Kick</span></a>
+</nav>
+</div></header>
+
+<main id="main">
+<section class="wrap section more-page">
+<div class="modal" id="more-page">
+<div id="mp-wait"><p class="intro" style="margin:0">Loading…</p></div>
+<div id="mp-who" hidden>
+<h2>Help shape KickStartYou</h2>
+<p class="intro">Tell us your sector and what you need most right now. It takes about a minute.</p>
+<div class="fields" style="margin-top:24px">
+<div class="ul"><label for="mp-email">Your email <span class="req">*</span></label><input id="mp-email" type="email" autocomplete="email"><span class="ferr" id="mp-email-err" role="alert" hidden>Enter a valid email address, e.g. name@example.com</span></div>
+</div>
+<p class="small" style="margin:12px 0 0;font-size:14px">The one you get The Weekly Kick on, so your answers are saved to you.</p>
+<button type="button" class="bigbtn" id="mp-go">Continue</button>
+<span class="ferr" id="mp-send-err" role="alert" style="display:block;text-align:center;margin-top:10px" hidden>Something went wrong, please try again.</span>
+</div>
+<div id="mp-notfound" hidden>
+<h2>We can't find that email.</h2>
+<p class="intro">It isn't on The Weekly Kick list yet. Subscribe first, then you can tell us a bit more straight away. Just signed up? Tap the link in your confirmation email, then come back.</p>
+<button type="button" class="bigbtn" data-open-signup>Subscribe</button>
+<button type="button" class="btn" style="width:100%;margin-top:10px;color:var(--purple)" data-mp="who">Try another email</button>
+</div>
+<div id="mp-answered" hidden>
+<h2>You've already told us. Thank you!</h2>
+<p class="intro">Want to change your answers? Tap "Tell us a bit more" in any Weekly Kick email and it will take you straight to them.</p>
+<a class="bigbtn" href="../roles/" style="display:flex;align-items:center;justify-content:center;text-decoration:none">See the roles</a>
+</div>
+<div id="mp-thanks" hidden>
+<h2>Thank you.</h2>
+<p class="intro">Your answers help shape what we build next.</p>
+<a class="bigbtn" href="../roles/" style="display:flex;align-items:center;justify-content:center;text-decoration:none">See the roles</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site"><div class="wrap">
+<div class="cols">
+<div><img src="../assets/logo-white.png" alt="KickStartYou" width="187" height="78" style="height:78px;width:auto;display:block;margin-left:-12px"><p style="margin:8px 0 0;color:#d6d0de;font-size:15px">Free career support for international students from the African and Caribbean diaspora in the UK.</p></div>
+<div class="col"><p class="h">Follow</p><a href="https://whatsapp.com/channel/0029VbEMesjEquiK8Z1TzF3m" target="_blank" rel="noopener">WhatsApp channel</a><a href="https://www.linkedin.com/in/toluwani-sangosanya" target="_blank" rel="noopener">LinkedIn</a><a href="#" data-open-signup>The Weekly Kick</a></div>
+<div class="col"><p class="h">Contact</p><a href="mailto:toluwani@kickstartyou.org">toluwani@kickstartyou.org</a><a href="../legal/#privacy">Privacy</a><a href="../legal/#terms">Terms</a><a href="../legal/#cookies">Cookie policy</a><button type="button" data-cookie-settings>Cookie settings</button></div>
+</div>
+<p class="bottom">© 2026 KickStartYou. We don't give immigration advice.</p>
+</div></footer>
+</body>
+</html>

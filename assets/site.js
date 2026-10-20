@@ -22,6 +22,7 @@
   const fromNewsletter = /[?&](utm_source=brevo|ref=kick)/i.test(location.search);
   if (fromNewsletter) store.set('subscribed', '1');
   const subscribed = () => store.get('subscribed') === '1';
+  const morePage = $('more-page'); // only on kickstartyou.org/more/
 
   // ---------- markup added to every page ----------
   const legal = BASE + 'legal/';
@@ -178,7 +179,9 @@
       city: typed('m-city'), country: typed('m-country'), uni: typed('m-uni'),
       heard: $('m-heard').value, anythingElse: $('m-else').value.trim()
     });
-    if (res) step('thanks');
+    if (!res) return;
+    store.set('pass', '');
+    step('thanks');
   }
   $('more-submit').addEventListener('click', checkMore);
   $('pp-more').addEventListener('input', (e) => {
@@ -190,6 +193,12 @@
   const popup = $('popup');
   let lastFocus = null;
   function step(name) {
+    // On the "Tell us a bit more" page the questions and thanks are on the page itself, not in the pop-up.
+    if (morePage && (name === 'more' || name === 'thanks')) {
+      if (!popup.hidden) closePopup();
+      pageStep(name);
+      return;
+    }
     ['form', 'done', 'more', 'thanks'].forEach((k) => { $('pp-' + k).hidden = k !== name; });
     popup.scrollTop = 0;
   }
@@ -256,6 +265,7 @@
     });
     if (!res) return;
     pass = res.pass || '';
+    store.set('pass', pass); // lets kickstartyou.org/more/ open the questions on this browser for a day
     const already = res.status === 'already';
     $('pp-done-title').textContent = already ? "You're already subscribed." : 'Check your inbox.';
     $('pp-done-text').textContent = already ? "We've updated your details."
@@ -356,6 +366,48 @@
   }
   window.addEventListener('scroll', onScroll, { passive: true });
   setTimeout(autoPopup, POPUP_AFTER);
+
+  // ---------- the "Tell us a bit more" page (kickstartyou.org/more/) ----------
+  // The same questions as the pop-up step, moved onto the page. The private link in the emails (?c=...)
+  // or a sign-up on this browser in the last day opens them straight away; anyone else gives their email first.
+  let pageStep = () => {};
+  if (morePage) {
+    morePage.append($('pp-more'));
+    pageStep = (name) => {
+      ['wait', 'who', 'notfound', 'answered', 'thanks'].forEach((k) => { $('mp-' + k).hidden = k !== name; });
+      $('pp-more').hidden = name !== 'more';
+      window.scrollTo(0, 0);
+    };
+    const handle = (res) => {
+      if (res.status === 'ok') { pass = res.pass; store.set('pass', pass); pageStep('more'); }
+      else pageStep(res.status === 'notfound' || res.status === 'answered' ? res.status : 'who');
+    };
+    const start = async (body) => {
+      if (!CONFIG.SIGNUP_READY || !CONFIG.SIGNUP_URL) return { status: 'error' };
+      try {
+        const r = await fetch(CONFIG.SIGNUP_URL + '/start', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body)
+        });
+        return await r.json();
+      } catch (e) { return { status: 'error' }; }
+    };
+    (async () => {
+      const code = window.KSY_MORE_CODE || '', saved = store.get('pass');
+      let res = code ? await start({ code }) : null;
+      if ((!res || res.status !== 'ok') && saved) res = await start({ pass: saved });
+      if (res && res.status === 'ok') handle(res); else pageStep('who');
+    })();
+    $('mp-go').addEventListener('click', async () => {
+      const ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test($('mp-email').value.trim());
+      $('mp-email-err').hidden = ok;
+      if (!ok) { $('mp-email').focus(); return; }
+      const res = await send('/start', $('mp-go'), 'Checking…', $('mp-send-err'), { email: $('mp-email').value.trim() });
+      if (res) handle(res);
+    });
+    $('mp-email').addEventListener('keydown', (e) => { if (e.key === 'Enter') $('mp-go').click(); });
+    $('mp-email').addEventListener('input', () => { $('mp-email-err').hidden = true; });
+    morePage.addEventListener('click', (e) => { if (e.target.closest('[data-mp="who"]')) pageStep('who'); });
+  }
 
   // Arriving from kickstartyou.org/join/ (QR code, WhatsApp, LinkedIn): open the sign-up straight away,
   // on phones too, since the visitor asked for it. Then tidy the address so a refresh doesn't reopen it.
