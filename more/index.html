@@ -46,9 +46,9 @@
 <span class="ferr" id="mp-send-err" role="alert" style="display:block;text-align:center;margin-top:10px" hidden>Something went wrong, please try again.</span>
 </div>
 <div id="mp-notfound" hidden>
-<h2>We can't find that email.</h2>
-<p class="intro">It isn't on The Weekly Kick list yet. Subscribe first, then you can tell us a bit more straight away. Just signed up? Tap the link in your confirmation email, then come back.</p>
-<button type="button" class="bigbtn" data-open-signup>Subscribe</button>
+<h2>You're not signed up yet.</h2>
+<p class="intro">Sign up to The Weekly Kick first. It's free, and you'll go straight to the questions after.</p>
+<button type="button" class="bigbtn" id="mp-signup">Sign up</button>
 <button type="button" class="btn" style="width:100%;margin-top:10px;color:var(--purple)" data-mp="who">Try another email</button>
 </div>
 <div id="mp-answered" hidden>
@@ -56,6 +56,7 @@
 <p class="intro">Want to change your answers? Tap "Tell us a bit more" in any Weekly Kick email and it will take you straight to them.</p>
 <a class="bigbtn" href="../roles/" style="display:flex;align-items:center;justify-content:center;text-decoration:none">See the roles</a>
 </div>
+<div class="note" id="mp-confirm" style="margin-bottom:22px" hidden></div>
 <div id="mp-thanks" hidden>
 <h2>Thank you.</h2>
 <p class="intro">Your answers help shape what we build next.</p>

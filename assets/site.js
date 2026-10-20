@@ -61,7 +61,7 @@
 <div id="pp-done" hidden>
 <h2 id="pp-done-title">Check your inbox.</h2>
 <p class="intro" id="pp-done-text">We've sent you an email. Tap the link inside to confirm your subscription.</p>
-<div class="box" style="margin-top:24px;background:var(--light);border:2px solid var(--lav2)">
+<div class="box" id="pp-more-box" style="margin-top:24px;background:var(--light);border:2px solid var(--lav2)">
 <p class="bt">Help shape KickStartYou</p><p class="bd">Tell us your sector and what you need most right now. It takes about a minute.</p>
 <button type="button" class="btn btn-purple" style="width:100%" data-step="more">Tell us a bit more</button>
 </div>
@@ -272,6 +272,18 @@
       : "We've sent you an email. Tap the link inside to confirm your subscription.";
     store.set('subscribed', '1');
     $('sidetab').hidden = true;
+    // No pass means this email has answered before: only the private link in their emails can change answers.
+    $('pp-more-box').hidden = !pass;
+    // On the "Tell us a bit more" page, signing up leads straight to the questions.
+    if (morePage) {
+      closePopup();
+      if (!pass) { pageStep('answered'); return; }
+      $('mp-confirm').textContent = already ? "You're already subscribed, so you can go straight ahead."
+        : "You're signed up. Check your inbox and tap the link to confirm your subscription.";
+      pageStep('more');
+      $('mp-confirm').hidden = false;
+      return;
+    }
     step('done');
   });
 
@@ -374,7 +386,7 @@
   if (morePage) {
     morePage.append($('pp-more'));
     pageStep = (name) => {
-      ['wait', 'who', 'notfound', 'answered', 'thanks'].forEach((k) => { $('mp-' + k).hidden = k !== name; });
+      ['wait', 'who', 'notfound', 'answered', 'thanks', 'confirm'].forEach((k) => { $('mp-' + k).hidden = k !== name; });
       $('pp-more').hidden = name !== 'more';
       window.scrollTo(0, 0);
     };
@@ -407,6 +419,11 @@
     $('mp-email').addEventListener('keydown', (e) => { if (e.key === 'Enter') $('mp-go').click(); });
     $('mp-email').addEventListener('input', () => { $('mp-email-err').hidden = true; });
     morePage.addEventListener('click', (e) => { if (e.target.closest('[data-mp="who"]')) pageStep('who'); });
+    // Not subscribed yet: open the sign-up with the email they just typed.
+    $('mp-signup').addEventListener('click', () => {
+      openPopup();
+      $('pp-email').value = $('mp-email').value.trim();
+    });
   }
 
   // Arriving from kickstartyou.org/join/ (QR code, WhatsApp, LinkedIn): open the sign-up straight away,
