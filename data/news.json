@@ -43,6 +43,29 @@
    "sourceUrl": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible",
    "alsoName": "gov.uk: Student visa, money you need",
    "alsoUrl": "https://www.gov.uk/student-visa/money"
+  },
+  {
+   "id": "skilled-worker-visas-it-top-job",
+   "date": "2026-10-22",
+   "publish": "2026-10-29",
+   "topic": "Visa news",
+   "icon": "briefcase",
+   "image": "images/news/skilled-worker-visas-it-top-job.png",
+   "headline": "Skilled Worker visas: IT is the top job as hospitality falls 76%",
+   "seoTitle": "Skilled Worker visas in 2026: which jobs get them, and how most graduates move from study to work",
+   "description": "IT professionals got the most Skilled Worker visas in the year to June 2026, while hospitality fell 76%. See which jobs are still sponsored and why.",
+   "summary": "IT is still the most common job on the Skilled Worker visa, while hospitality visas fell 76% after over 100 jobs stopped qualifying.",
+   "intro": "If you're an international student or graduate hoping to work in the UK, it helps to know which jobs still get sponsored. New Home Office figures show IT is still the most common job on the Skilled Worker visa, while hospitality has fallen sharply.",
+   "sections": [
+    {"h": "What the figures show", "p": ["The Skilled Worker visa is the main UK work visa. It needs an employer with a sponsor licence. In the year to June 2026:"], "list": ["26,894 visas went to main applicants (the person with the job), 30% fewer than the year before", "IT professionals got 4,674 of these, 7% fewer, but still more than any other job", "Food preparation and hospitality got 528, down 76%, which was most of the fall"]},
+    {"h": "Why the numbers fell", "p": ["From 22 July 2025, the skill level needed for the Skilled Worker visa went up. The Home Office says over 100 jobs are no longer eligible as a result, so there are fewer applications and visas.", "Newer monthly figures show the fall is continuing. In the year to September 2026, there were 26,400 Skilled Worker applications from main applicants, 43% fewer than the year before."]},
+    {"h": "From study to work", "p": ["Many people on work visas started out as students. Of everyone granted a work visa extension in 2025, 40% had been on a study visa before. Most of them moved from a Student visa to the Graduate visa first.", "The September figures also show 352,500 Student visa applications from main applicants in the year to September 2026, 19% fewer than the year before.", "For the Graduate visa, in the year to June 2026:"], "list": ["157,356 Graduate visa extensions were granted, 39% fewer than the year before", "most of that fall came from an 81% drop in visas for dependants (family members)"]},
+    {"h": "Where to check", "p": ["These are Home Office statistics, not rule changes. The monthly figures are provisional, and the next update is due on 12 November 2026. You can see the full figures on gov.uk."]}
+   ],
+   "sourceName": "gov.uk: Why do people come to the UK? Work (year ending June 2026)",
+   "sourceUrl": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/why-do-people-come-to-the-uk-work",
+   "alsoName": "gov.uk: Monthly entry clearance visa applications, September 2026",
+   "alsoUrl": "https://www.gov.uk/government/statistics/monthly-entry-clearance-visa-applications-september-2026/monthly-entry-clearance-visa-applications-september-2026"
   }
  ]
 }
