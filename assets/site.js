@@ -31,7 +31,7 @@
 <button type="button" class="ck-x" aria-label="Close" data-cookie-later>✕</button>
 <p class="ck-t" id="ck-title">Can we use cookies?</p>
 <p>They show us which roles you click on, so we can find more like them.</p>
-<div class="ck-btns"><a class="ck-more" href="${legal}#cookies">More info</a><button type="button" class="ck-yes" data-consent="yes">Accept all</button><button type="button" class="ck-no" data-consent="no">Reject all</button></div>
+<div class="ck-btns"><a class="ck-more" href="${legal}#cookies">More info</a><button type="button" class="ck-no" data-consent="no">Reject all</button><button type="button" class="ck-yes" data-consent="yes">Accept all</button></div>
 </div>
 <button type="button" class="sidetab" id="sidetab" hidden data-open-signup><svg class="ico-mail" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><svg class="ico-bell" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2-3v-3a7 7 0 0 1 4-6"/><path d="M9 17v1a3 3 0 0 0 6 0v-1"/></svg>Never miss a role</button>
 <div class="overlay" id="popup" role="dialog" aria-modal="true" aria-labelledby="pp-title" hidden>
