@@ -1,6 +1,112 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-22",
  "roles": [
+  {
+   "company": "Macquarie",
+   "role": "2027 Central Executive Group Graduate Programme - Internal Audit",
+   "location": "London",
+   "closing": "2026-10-30",
+   "sector": "Finance and banking",
+   "note": "For students graduating Jan to Jul 2027. May close early.",
+   "link": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23884",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Macquarie",
+   "role": "2027 Commodities and Global Markets Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-30",
+   "sector": "Finance and banking",
+   "note": "For students graduating Jan to Jul 2027. May close early.",
+   "link": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23733",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Macquarie",
+   "role": "2027 Risk Management Group Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-30",
+   "sector": "Finance and banking",
+   "note": "For students graduating Jan to Jul 2027. May close early.",
+   "link": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23797",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Macquarie",
+   "role": "2027 Technology Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-30",
+   "sector": "Tech and data",
+   "note": "For students graduating Jan to Jul 2027. May close early.",
+   "link": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23881",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Barclays",
+   "role": "Sales, Trading and Structuring Graduate Programme 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://search.jobs.barclays/job/london/sales-trading-and-structuring-graduate-programme-2027-london/13015/100425237424",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Barclays",
+   "role": "UK Corporate Banking Graduate Programme 2027",
+   "location": "Birmingham",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://search.jobs.barclays/job/birmingham/uk-corporate-banking-graduate-programme-2027-birmingham/13015/100032500848",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Barclays",
+   "role": "Global Transaction Banking Graduate Programme 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://search.jobs.barclays/job/london/global-transaction-banking-graduate-programme-2027-london/13015/100032500192",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Barclays",
+   "role": "Capital Markets Graduate Programme 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "link": "https://search.jobs.barclays/job/london/capital-markets-graduate-programme-2027-london/13015/99885319584",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Barclays",
+   "role": "2027 Quantitative Analytics Associate Graduate Programme",
+   "location": "Glasgow",
+   "closing": "2026-10-31",
+   "sector": "Finance and banking",
+   "note": "If not Skilled Worker eligible, you need your own right to work to Aug 2028.",
+   "link": "https://search.jobs.barclays/job/glasgow/2027-quantitative-analytics-associate-graduate-programme-glasgow/13015/100411087120",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "Barclays",
+   "role": "2027 Operations Analyst Graduate Programme",
+   "location": "Knutsford",
+   "closing": "2026-10-31",
+   "sector": "Finance and banking",
+   "note": "If not Skilled Worker eligible, you need your own right to work to Aug 2029.",
+   "link": "https://search.jobs.barclays/job/knutsford/2027-operations-analyst-graduate-programme-knutsford/13015/101604346800",
+   "added": "2026-10-22"
+  },
+  {
+   "company": "MUFG",
+   "role": "2027 MUFG UK Analyst Programme: Digital Transformation & Artificial Intelligence",
+   "location": "London",
+   "closing": "2026-10-25",
+   "sector": "Tech and data",
+   "note": "For final-year students or 2026 graduates. May close early.",
+   "link": "https://mufgub.wd3.myworkdayjobs.com/MUFG-EarlyCareers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme--Digital-Transformation---Artificial-Intelligence_10080075-WD",
+   "added": "2026-10-22"
+  },
   {
    "company": "Barclays",
    "role": "Banking Graduate Programme 2027",
