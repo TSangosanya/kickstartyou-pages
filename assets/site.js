@@ -441,6 +441,14 @@
     try { history.replaceState(null, '', location.pathname + rest + location.hash); } catch (e) { /* fine */ }
   }
 
+  // The KickStartYou video (Home and About): the "Watch the video" pill starts it, then the normal player controls take over.
+  document.querySelectorAll('.about-video, .home-video').forEach((box) => {
+    const pill = box.querySelector('.video-pill'), video = box.querySelector('video');
+    if (!pill || !video) return;
+    pill.addEventListener('click', () => { pill.hidden = true; video.controls = true; video.play(); });
+    video.addEventListener('play', () => { pill.hidden = true; video.controls = true; });
+  });
+
   // Shared helper for the roles and news scripts.
   window.KSY.esc = (t) => String(t == null ? '' : t).replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 })();

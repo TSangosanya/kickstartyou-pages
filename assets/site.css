@@ -414,3 +414,25 @@ img.newsimg{display:block;width:100%;height:auto;object-fit:cover}
 /* kickstartyou.org/more/: the "Tell us a bit more" questions as their own page, in the pop-up's card */
 .more-page .modal{margin:0 auto;border:2px solid var(--lav2)}
 .more-page .modal h2{padding-right:0}
+/* About: the KickStartYou video under the "Two barriers" text, before the three cards */
+.about-video{max-width:760px;margin:0 0 36px}
+.about-video video{display:block;width:100%;aspect-ratio:16/9;border-radius:16px;background:var(--lav2);object-fit:cover}
+/* About: the founder section has no photo for now, so the text runs on its own, as wide as the KickStartYou text */
+.founder-sec.no-photo>div{max-width:780px}
+@media (max-width:1023px){
+ .founder-sec.no-photo{display:block!important}
+ .founder-sec.no-photo h2{margin:0 0 20px!important}
+ .founder-sec.no-photo>div>p:not(.eyebrow){margin:0 0 16px}
+}
+/* About: less space between "Connect with Toluwani on LinkedIn" and the Help shape band */
+.section.about-band{padding-top:48px}
+@media (max-width:700px){.section.about-band{padding-top:36px}}
+/* The KickStartYou video on Home and About: a "Watch the video" pill on the thumbnail starts it in place */
+.home-video{position:relative;border-radius:10px;overflow:hidden}
+.home-video video{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--lav2)}
+.about-video{position:relative}
+.video-pill{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:1;background:var(--purple);color:#fff;font:inherit;font-weight:700;font-size:15px;padding:9px 16px 9px 14px;border:none;border-radius:999px;white-space:nowrap;box-shadow:0 0 0 2px rgba(255,255,255,.85);cursor:pointer}
+.home-video .video-pill{bottom:10px;font-size:13px;padding:6px 12px 6px 11px}
+.about-video .video-pill{bottom:20px;font-size:18px;padding:12px 22px 12px 20px;box-shadow:0 0 0 3px rgba(255,255,255,.85)}
+@media (max-width:700px){.about-video .video-pill{bottom:12px;font-size:15px;padding:9px 16px 9px 14px}}
+.video-pill:hover,.video-pill:focus-visible{background:var(--deep)}
