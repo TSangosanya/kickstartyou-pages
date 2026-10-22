@@ -273,6 +273,8 @@
     pass = res.pass || '';
     store.set('pass', pass); // lets kickstartyou.org/more/ open the questions on this browser for a day
     const already = res.status === 'already';
+    // Counted in Google Analytics as the "sign_up" key event, so each UTM link shows its sign-ups (only after Accept).
+    if (!already && window.gtag) window.gtag('event', 'sign_up', { method: 'popup' });
     $('pp-done-title').textContent = already ? "You're already subscribed." : 'Check your inbox.';
     $('pp-done-text').textContent = already ? "We've updated your details."
       : "We've sent you an email. Tap the link inside to confirm your subscription.";
