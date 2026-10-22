@@ -132,6 +132,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://www.optiver.com/join-us/jobs/8585609002/",
    "added": "2026-10-19"
   },
@@ -142,6 +143,7 @@
    "closing": null,
    "sector": "Tech and data",
    "note": "Can't re-apply within 8 months of a recent Optiver assessment.",
+   "closed": true,
    "link": "https://www.optiver.com/join-us/jobs/8561859002/",
    "added": "2026-10-19"
   },
@@ -170,6 +172,7 @@
    "closing": "2026-10-26",
    "sector": "Consulting and accounting",
    "note": "Only for current Student visa holders.",
+   "closed": true,
    "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Risk-Controls-Consulting-Strategy-Transformation/25116"
   },
   {
@@ -285,6 +288,7 @@
    "closing": null,
    "sector": "Consulting and accounting",
    "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "closed": true,
    "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Assurance/23962"
   },
   {
@@ -302,6 +306,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://job-boards.greenhouse.io/schonfeld/jobs/8172053"
   },
   {
@@ -334,6 +339,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://job-boards.eu.greenhouse.io/ebury/jobs/4994389101"
   },
   {
@@ -359,6 +365,7 @@
    "closing": null,
    "sector": "Tech and data",
    "note": "Asks for up to 2 years' customer-facing technical experience.",
+   "closed": true,
    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5425724008"
   },
   {
@@ -375,6 +382,7 @@
    "location": "London",
    "closing": null,
    "sector": "Tech and data",
+   "closed": true,
    "link": "https://www.jumptrading.com/hr/job?gh_jid=7975008"
   },
   {
@@ -391,6 +399,7 @@
    "location": "London",
    "closing": null,
    "sector": "Tech and data",
+   "closed": true,
    "link": "https://www.jumptrading.com/hr/job?gh_jid=7975026"
   },
   {
@@ -452,6 +461,7 @@
    "closing": null,
    "sector": "Tech and data",
    "note": "Asks for 1 to 3 years' experience in a target-driven role.",
+   "closed": true,
    "link": "https://www.samsara.com/company/careers/roles/8104994"
   },
   {
