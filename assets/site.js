@@ -19,7 +19,7 @@
     set(k, v) { try { localStorage.setItem('ksy-' + k, v); } catch (e) { /* private mode: fine */ } }
   };
   const $ = (id) => document.getElementById(id);
-  const fromNewsletter = /[?&](utm_source=brevo|ref=kick)/i.test(location.search);
+  const fromNewsletter = /[?&](utm_source=(brevo|newsletter)|ref=kick)/i.test(location.search);
   if (fromNewsletter) store.set('subscribed', '1');
   const subscribed = () => store.get('subscribed') === '1';
   const morePage = $('more-page'); // only on kickstartyou.org/more/
