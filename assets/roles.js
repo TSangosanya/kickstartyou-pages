@@ -27,7 +27,7 @@
       const days = date ? Math.round((date - today) / DAY) : null;
       return Object.assign({}, x, {
         i, date, days,
-        closed: days !== null && days < 0,
+        closed: x.closed === true || (days !== null && days < 0), // "closed": true = advert taken down early
         week: days !== null && days >= 0 && days <= 7,
         isNew: !!(x.added && updated && parse(x.added) >= updated),
         urgent: days === null ? '' : days === 0 ? 'Closes today' : days === 1 ? 'Closes tomorrow' : days > 1 && days <= 14 ? `Closes in ${days} days` : ''
@@ -46,6 +46,7 @@
     // Closing in 3 days or less: Tangerine pill; any other "Closes in" or "Apply early": a plain tag
     const dateCell = (x) => x.date
       ? `<b>${pretty(x.date)}</b>${x.closed ? '<br><span class="tag grey">Closed</span>' : x.urgent ? `<br><span class="tag${x.days <= 3 ? ' hot' : ''}">${x.urgent}</span>` : ''}`
+      : x.closed ? '<b>Closed early</b><br><span class="tag grey">Closed</span>'
       : '<b>No closing date</b><br><span class="tag">Apply early</span>';
     const row = (x) => `<tr class="${x.closed ? 'closed' : ''}">
 <td class="co">${x.isNew && !x.closed ? '<span class="tag new">New</span><br>' : ''}<b>${esc(x.company)}</b></td>
