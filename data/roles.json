@@ -436,6 +436,7 @@
    "closing": null,
    "sector": "Consulting and accounting",
    "note": "Your course must finish before your start date.",
+   "closed": true,
    "link": "https://www.kpmgcareers.co.uk/search/"
   },
   {
