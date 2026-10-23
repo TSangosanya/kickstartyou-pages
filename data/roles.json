@@ -316,6 +316,7 @@
    "location": "London",
    "closing": null,
    "sector": "Tech and data",
+   "closed": true,
    "link": "https://job-boards.greenhouse.io/schonfeld/jobs/8207942"
   },
   {
