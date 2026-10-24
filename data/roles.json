@@ -74,6 +74,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://search.jobs.barclays/job/london/capital-markets-graduate-programme-2027-london/13015/99885319584",
    "added": "2026-10-22"
   },
@@ -113,6 +114,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://search.jobs.barclays/job/london/banking-graduate-programme-2027-london/13015/99885319536",
    "added": "2026-10-19"
   },
