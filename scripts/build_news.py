@@ -172,6 +172,13 @@ def main():
         'User-agent: *\nDisallow: /join/\nDisallow: /check-inbox/\nDisallow: /subscribed/\nDisallow: /thanks/\n'
         f'\nSitemap: {SITE}/sitemap.xml\n', encoding='utf-8')
     print(f'{len(live)} story page(s) built{" (preview: includes unpublished)" if preview else ""}: {", ".join(sorted(keep)) or "none"}')
+    # Google cuts result titles at about 60 characters and descriptions at about 155.
+    for s in stories:
+        title = f'{s["seoTitle"]} | KickStartYou'
+        if len(title) > 60:
+            print(f'WARNING: {s["id"]} title is {len(title)} characters with " | KickStartYou" (keep it to 60)')
+        if len(s['description']) > 155:
+            print(f'WARNING: {s["id"]} description is {len(s["description"])} characters (keep it to 155)')
 
 
 if __name__ == '__main__':
