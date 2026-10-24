@@ -225,7 +225,7 @@ img.newsimg{display:block;width:100%;height:auto;object-fit:cover}
 /* sign-up pop-up */
 .overlay{position:fixed;inset:0;background:rgba(42,16,70,.72);display:flex;align-items:flex-start;justify-content:center;padding:24px 16px;overflow-y:auto;z-index:50}
 .modal{position:relative;width:100%;max-width:580px;margin:auto 0;background:#fff;border-radius:8px;padding:36px 28px 22px}
-.modal h2{margin:0;padding-right:40px;font-size:clamp(32px,6vw,42px)}
+.modal h1,.modal h2{margin:0;padding-right:40px;font-size:clamp(32px,6vw,42px)}
 .modal .intro{margin:10px 0 0;font-size:17px;color:var(--muted)}
 .close{position:absolute;top:12px;right:12px;width:44px;height:44px;border:none;background:var(--light);border-radius:50%;cursor:pointer;font-size:20px;line-height:1}
 .fields{display:flex;flex-direction:column;gap:18px;margin-top:20px}
