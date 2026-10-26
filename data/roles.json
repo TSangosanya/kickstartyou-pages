@@ -1,6 +1,81 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-26",
  "roles": [
+  {
+   "company": "Deloitte",
+   "role": "Transaction Services - Mergers & Acquisitions Graduate Programme",
+   "location": "Leeds",
+   "closing": "2026-10-26",
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Transaction-Services-Mergers-Acquisitions/24159"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Risk & Controls Consulting - Reputation, Crisis & Resilience Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-26",
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Risk-Controls-Consulting-Reputation-Crisis-Resilience/24836"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Risk & Controls Consulting - Enterprise Security Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-26",
+   "sector": "Tech and data",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Risk-Controls-Consulting-Enterprise-Security/22685"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Resolution & Recovery - Mergers & Acquisitions Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-26",
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Resolution-Recovery-Mergers-Acquisitions/24147"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Managed Solutions - Regulatory & Financial Risk Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-26",
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Managed-Solutions-Regulatory-Financial-Risk/24148"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Mergers & Acquisitions Technology Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-26",
+   "sector": "Tech and data",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Mergers-Acquisitions-Technology/24161",
+   "added": "2026-10-26"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Risk & Controls Consulting - Defence & Resilience Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-26",
+   "sector": "Tech and data",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Risk-Controls-Consulting-Defense-Resilience/24835",
+   "added": "2026-10-26"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Risk & Controls Consulting - Strategy & Transformation (Cyber) Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-26",
+   "sector": "Tech and data",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Risk-Controls-Consulting-Strategy-Transformation/24838",
+   "added": "2026-10-26"
+  },
   {
    "company": "Macquarie",
    "role": "2027 Central Executive Group Graduate Programme - Internal Audit",
