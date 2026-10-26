@@ -33,10 +33,10 @@
         urgent: days === null ? '' : days === 0 ? 'Closes today' : days === 1 ? 'Closes tomorrow' : days > 1 && days <= 14 ? `Closes in ${days} days` : ''
       });
     });
-    // "8 new this week" pills (Home's Roles tracker card and the Roles page header); hidden when none are new
+    // "8 top picks this week" pills (Home's Roles tracker card and the Roles page header); hidden when there are none
     const newCount = roles.filter((x) => x.isNew && !x.closed).length;
     document.querySelectorAll('[data-newcount]').forEach((el) => {
-      el.textContent = `${newCount} new this week`;
+      el.textContent = `${newCount} top pick${newCount === 1 ? '' : 's'} this week`;
       el.hidden = newCount === 0;
     });
     const upd = document.getElementById('updated');
@@ -49,7 +49,7 @@
       : x.closed ? '<b>Closed early</b><br><span class="tag grey">Closed</span>'
       : '<b>No closing date</b><br><span class="tag">Apply early</span>';
     const row = (x) => `<tr class="${x.closed ? 'closed' : ''}">
-<td class="co">${x.isNew && !x.closed ? '<span class="tag new">New</span><br>' : ''}<b>${esc(x.company)}</b></td>
+<td class="co">${x.isNew && !x.closed ? '<span class="tag new">Top pick</span><br>' : ''}<b>${esc(x.company)}</b></td>
 <td>${esc(x.role)}${x.sector ? `<br><span class="tag">${esc(x.sector)}</span>` : ''}${x.note ? `<span class="rnote">${esc(x.note)}</span>` : ''}</td>
 <td>${esc(x.location)}</td>
 <td style="white-space:nowrap">${dateCell(x)}</td>
@@ -86,13 +86,13 @@
           (loc === 'Outside London' && !/london/i.test(x.location)) || (loc === 'Hybrid or remote' && /hybrid|remote/i.test(x.location))));
       const closedLast = (a, b) => (a.closed ? 1 : 0) - (b.closed ? 1 : 0);
       list.sort(sort === 'Company A to Z' ? (a, b) => a.company.localeCompare(b.company)
-        : sort === 'New first' ? (a, b) => closedLast(a, b) || (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0) || byClosing(a, b)
+        : sort === 'Top picks first' ? (a, b) => closedLast(a, b) || (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0) || byClosing(a, b)
         : (a, b) => closedLast(a, b) || byClosing(a, b));
       const pages = Math.max(1, Math.ceil(list.length / PER_PAGE));
       st.page = Math.min(st.page, pages);
       const from = (st.page - 1) * PER_PAGE;
       const shown = list.slice(from, from + PER_PAGE);
-      const active = [loc !== 'All locations', sec !== 'All sectors', sort !== 'New first', st.week, st.closed].filter(Boolean).length;
+      const active = [loc !== 'All locations', sec !== 'All sectors', sort !== 'Top picks first', st.week, st.closed].filter(Boolean).length;
       $('f-toggle').textContent = active ? `Filters (${active})` : 'Filters';
       $('count').textContent = list.length
         ? `Showing ${from + 1} to ${from + shown.length} of ${list.length} ${list.length === 1 ? 'role' : 'roles'}`
@@ -126,7 +126,7 @@
       e.currentTarget.setAttribute('aria-expanded', open);
     });
     $('clear').addEventListener('click', () => {
-      $('f-search').value = ''; $('f-loc').value = 'All locations'; sectorSel.value = 'All sectors'; $('f-sort').value = 'New first';
+      $('f-search').value = ''; $('f-loc').value = 'All locations'; sectorSel.value = 'All sectors'; $('f-sort').value = 'Top picks first';
       st.week = st.closed = false;
       $('f-week').setAttribute('aria-pressed', false); $('f-closed').setAttribute('aria-pressed', false);
       redraw();
