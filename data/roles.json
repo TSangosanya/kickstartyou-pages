@@ -1,6 +1,159 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-29",
  "roles": [
+  {
+   "company": "EY",
+   "role": "Audit Graduate Programme (September 2027 intake)",
+   "location": "Reading",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to Graduate visa holders. Suits current Student visa holders.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=Assurance&LAYER3=Audit&LAYER4=Reading&LAYER5=September+2027"
+  },
+  {
+   "company": "EY",
+   "role": "Tax Graduate Programme (September 2027 intake)",
+   "location": "Reading",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to Graduate visa holders. Suits current Student visa holders.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=Tax&LAYER3=Tax&LAYER4=Reading&LAYER5=September+2027"
+  },
+  {
+   "company": "EY",
+   "role": "Technology Risk Graduate Programme (August 2027 intake)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to Graduate visa holders. Suits current Student visa holders.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=Assurance&LAYER3=Technology+Risk&LAYER4=London&LAYER5=August+2027"
+  },
+  {
+   "company": "EY",
+   "role": "Technology Risk Graduate Programme (September 2027 intake)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to Graduate visa holders. Suits current Student visa holders.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=Assurance&LAYER3=Technology+Risk&LAYER4=London&LAYER5=September+2027"
+  },
+  {
+   "company": "Third Bridge",
+   "role": "Graduate Associate, Client Services (2027 Start)",
+   "location": "London",
+   "closing": null,
+   "sector": "Other",
+   "note": "January and April 2027 start dates.",
+   "link": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/4921757101",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "AlphaSights",
+   "role": "Associate, Client Service, English Speaker, 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Other",
+   "note": "Asks for a 2:1 and relevant internship experience.",
+   "link": "https://www.alphasights.com/careers/open-roles?gh_jid=7960145",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "Macquarie",
+   "role": "2027 Financial Management, People & Engagement Graduate Programme",
+   "location": "London",
+   "closing": "2026-10-30",
+   "sector": "Finance and banking",
+   "link": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23926",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "Deloitte",
+   "role": "Tax Technology & Engineering Graduate Programme (September 2027 start)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Tax-Technology-Engineering/23028",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "Deloitte",
+   "role": "IT Audit Graduate Programme (September 2027 start)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/IT-Audit/22564",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "EY",
+   "role": "Tax Graduate Programme (September 2027 intake)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Not open to Graduate visa holders. Suits current Student visa holders.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=Tax&LAYER3=Tax&LAYER4=London&LAYER5=September+2027",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "EY-Parthenon",
+   "role": "EY-Parthenon Technology Graduate Programme (September 2027 intake)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Must qualify for the New Entrant salary rate for three years.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=EY-Parthenon&LAYER3=Technology&LAYER4=London&LAYER5=September+2027",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "EY-Parthenon",
+   "role": "EY-Parthenon Operational Research Graduate Programme (September 2027 intake)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Must qualify for the New Entrant salary rate for three years.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=EY-Parthenon&LAYER3=Operational+Research&LAYER4=London&LAYER5=September+2027",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "EY-Parthenon",
+   "role": "EY-Parthenon Operations Graduate Programme (September 2027 intake)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Must qualify for the New Entrant salary rate for three years.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=EY-Parthenon&LAYER3=Operations&LAYER4=London&LAYER5=September+2027",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "EY",
+   "role": "Forensic Services Graduate Programme (September 2027 intake)",
+   "location": "London",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Must be under 26 when applying. Sponsored places are limited.",
+   "link": "https://eycareers.ambertrack.global/earlycareers2027/CandidateLogin.aspx?LAYER1=Graduate&LAYER2=Assurance&LAYER3=Forensic+Services&LAYER4=London&LAYER5=September+2027",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "SSE",
+   "role": "Customer & Stakeholder Graduate Programme (September 2027 start)",
+   "location": "Perth",
+   "closing": "2026-11-01",
+   "sector": "Engineering and energy",
+   "link": "https://careers.sse.com/jobs/customer-stakeholder-graduate-programme-perth-perthshire-scotland-united-kingdom",
+   "added": "2026-10-29"
+  },
+  {
+   "company": "SSE",
+   "role": "Engineering Graduate Programme (September 2027 start)",
+   "location": "Multiple UK locations (Perth, Glasgow, Aberdeen, Reading, Portsmouth and others)",
+   "closing": "2026-11-01",
+   "sector": "Engineering and energy",
+   "link": "https://careers.sse.com/jobs/engineering-graduate-programme-portsmouth-united-kingdom-reading-berkshire-berkshire-aberdeen-aberdeenshire-aberdeenshire-glasgow-renfrewshire-renfrewshire-inverness-highland-scotland-perth-p",
+   "added": "2026-10-29"
+  },
   {
    "company": "Deloitte",
    "role": "Transaction Services - Mergers & Acquisitions Graduate Programme",
@@ -170,6 +323,7 @@
    "closing": "2026-10-31",
    "sector": "Finance and banking",
    "note": "If not Skilled Worker eligible, you need your own right to work to Aug 2029.",
+   "closed": true,
    "link": "https://search.jobs.barclays/job/knutsford/2027-operations-analyst-graduate-programme-knutsford/13015/101604346800",
    "added": "2026-10-22"
   },

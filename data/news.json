@@ -66,6 +66,57 @@
    "sourceUrl": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/why-do-people-come-to-the-uk-work",
    "alsoName": "gov.uk: Monthly entry clearance visa applications, September 2026",
    "alsoUrl": "https://www.gov.uk/government/statistics/monthly-entry-clearance-visa-applications-september-2026/monthly-entry-clearance-visa-applications-september-2026"
+  },
+  {
+   "id": "graduate-visa-switch-no-3-month-wait",
+   "date": "2026-10-29",
+   "publish": "2026-11-05",
+   "topic": "Visa news",
+   "icon": "passport",
+   "image": "images/news/graduate-visa-switch-no-3-month-wait.png",
+   "headline": "Graduate visa: no need to wait for your last 3 months to switch",
+   "seoTitle": "Graduate visa switch: when you can apply",
+   "description": "There is no rule that you must wait for the last 3 months of your Graduate visa to switch. See what gov.uk says about switching to a Skilled Worker visa.",
+   "summary": "You don't have to wait for the last 3 months of your Graduate visa to switch to another visa. Here's what gov.uk says about timing.",
+   "intro": "If you're on a Graduate visa and hoping to stay in the UK in a sponsored job, timing matters. Many people believe they can only switch to another visa in the last 3 months of their Graduate visa, but gov.uk sets no such rule.",
+   "sections": [
+    {
+     "h": "What the rules say",
+     "p": [
+      "You cannot extend a Graduate visa. gov.uk says you may be able to switch to a different visa instead, for example a Skilled Worker visa. This is the main UK work visa, and it needs a job offer from an employer with a sponsor licence.",
+      "On timing, the gov.uk page on switching to a Skilled Worker visa says you must apply online before your current visa expires. It does not say you have to wait until your current visa is close to ending."
+     ]
+    },
+    {
+     "h": "Where the 3 months idea comes from",
+     "p": [
+      "There are two 3 month rules on the Skilled Worker visa pages. Neither is about how long is left on your Graduate visa."
+     ],
+     "list": [
+      "You can apply up to 3 months before the day you are due to start work. This date is on your certificate of sponsorship, the electronic record your employer gives you.",
+      "You must apply within 3 months of getting your certificate of sponsorship."
+     ]
+    },
+    {
+     "h": "Worth knowing before you switch",
+     "list": [
+      "Your job must meet the Skilled Worker rules, including the minimum salary. For most jobs this is £41,700 a year or the going rate for the job, whichever is higher, though it can be lower in some cases.",
+      "You must not travel outside the UK, Ireland, the Channel Islands or the Isle of Man until you get a decision. If you do, your application will be withdrawn.",
+      "You'll usually get a decision within 8 weeks.",
+      "Your partner's or children's visas do not switch automatically. They can apply at the same time as you, or at any time before their current visa expires."
+     ]
+    },
+    {
+     "h": "Where to check",
+     "p": [
+      "The Graduate visa page explains how long your visa lasts and what you can do with it. The Skilled Worker visa guide covers switching, the job and salary rules, and both 3 month timings. Rules can change, so always check the latest version on gov.uk."
+     ]
+    }
+   ],
+   "sourceName": "gov.uk: Graduate visa",
+   "sourceUrl": "https://www.gov.uk/graduate-visa",
+   "alsoName": "gov.uk: Skilled Worker visa",
+   "alsoUrl": "https://www.gov.uk/skilled-worker-visa"
   }
  ]
 }
