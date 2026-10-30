@@ -73,6 +73,7 @@
    "closing": null,
    "sector": "Consulting and accounting",
    "note": "Not open to anyone already on a Skilled Worker or Graduate visa. Suits current Student visa holders.",
+   "closed": true,
    "link": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Tax-Technology-Engineering/23028",
    "added": "2026-10-29"
   },
@@ -275,6 +276,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://search.jobs.barclays/job/london/sales-trading-and-structuring-graduate-programme-2027-london/13015/100425237424",
    "added": "2026-10-22"
   },
