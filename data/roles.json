@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-11-02",
  "roles": [
+  {
+   "company": "HSBC",
+   "role": "Business Analyst - Treasury - Graduate",
+   "location": "London",
+   "closing": "2026-11-02",
+   "sector": "Finance and banking",
+   "note": "Studies must be finished by July 2027.",
+   "link": "https://apply.careers.hsbc.com/emergingtalent/job/London-Business-Analyst-Treasury-Graduate-E14-5HQ/1375123357/",
+   "added": "2026-11-02"
+  },
   {
    "company": "EY",
    "role": "Audit Graduate Programme (September 2027 intake)",
