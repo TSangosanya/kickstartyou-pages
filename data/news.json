@@ -117,6 +117,72 @@
    "sourceUrl": "https://www.gov.uk/graduate-visa",
    "alsoName": "gov.uk: Skilled Worker visa",
    "alsoUrl": "https://www.gov.uk/skilled-worker-visa"
+  },
+  {
+   "id": "uk-settlement-10-years",
+   "date": "2026-11-05",
+   "publish": "2026-11-05",
+   "topic": "Visa news",
+   "icon": "passport",
+   "image": "images/news/uk-settlement-10-years.png",
+   "headline": "Settling in the UK: 10 years becomes the standard wait",
+   "seoTitle": "UK settlement: 10 years is the new default",
+   "description": "The UK's new earned settlement rules make 10 years the standard wait for settled status, with 3 or 5 years for higher earners. Here's what's changing.",
+   "summary": "Settlement will take 10 years as standard, or 3 to 5 years for higher earners. Time on Student and Graduate visas won't count towards it.",
+   "intro": "If you hope to stay in the UK long term after a sponsored job, this matters to you. On 2 November the government set out its plan for how settlement will work in future, and for most people the wait would be 10 years.",
+   "sections": [
+    {
+     "h": "What's changing",
+     "p": [
+      "Settlement means permission to live in the UK permanently. Until now, most people on work routes could apply after five years. Under the planned \"earned settlement\" model, how long you wait would depend on your contribution and your character."
+     ],
+     "list": [
+      "3 years for the highest earners (at least £125,141 a year)",
+      "5 years for people earning at least £50,271, and some public service workers such as doctors, nurses and teachers",
+      "10 years as the new default, for people earning at least £12,571 a year for at least three years",
+      "At least 20 years for people who have broken immigration rules"
+     ]
+    },
+    {
+     "h": "Who it affects",
+     "p": [
+      "The government says the new rules would apply to anyone seeking settlement, whenever they arrived in the UK. As now, the rules in force when you apply are the ones that count.",
+      "If you're on a Student or Graduate visa, the government's response says time on these visas will not count towards settlement. The same goes for the High Potential Individual visa. Until now, this time could count through the 10-year Long Residence route, which the government plans to close. This is still a plan: the Immigration Rules haven't been changed yet.",
+      "Time on a Skilled Worker visa is one of the routes that will count."
+     ]
+    },
+    {
+     "h": "What everyone would need",
+     "p": [
+      "Whatever your earnings, the government says everyone would first need to meet four conditions:"
+     ],
+     "list": [
+      "A clean criminal record",
+      "A high standard of spoken English (about the level of A Level English as a foreign language)",
+      "No debt owed to the government",
+      "A record of steady National Insurance contributions"
+     ]
+    },
+    {
+     "h": "What hasn't changed",
+     "list": [
+      "If you already have settled status, it will never be taken away.",
+      "Family members of British citizens, Hong Kong British Nationals (Overseas) and members of the armed forces keep their current routes.",
+      "The government says no one will be forced to leave.",
+      "The Immigration Rules themselves haven't changed yet."
+     ]
+    },
+    {
+     "h": "Where to check",
+     "p": [
+      "The announcement doesn't give a start date. The government says it will publish more guidance before the changes begin. We'll share the details in The Weekly Kick when they're out. You can read the announcement and the government's full response using the links below."
+     ]
+    }
+   ],
+   "sourceName": "gov.uk: Home Secretary unveils new rules for settlement",
+   "sourceUrl": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
+   "alsoName": "gov.uk: A Fairer Pathway to Settlement (government response)",
+   "alsoUrl": "https://assets.publishing.service.gov.uk/media/6ae89fddf4a6b3f59cf37580/FINAL_VERSION_-_Earned_Settlement_-_Consultation_Response.pdf"
   }
  ]
 }

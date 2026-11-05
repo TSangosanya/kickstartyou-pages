@@ -1,6 +1,56 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-05",
  "roles": [
+  {
+   "company": "Gartner",
+   "role": "Sales Development Program, London (2027 Graduates)",
+   "location": "London",
+   "closing": null,
+   "sector": "Other",
+   "note": "For 2027 graduates. Asks for a sales or customer service job or internship.",
+   "link": "https://jobs.gartner.com/jobs/job/114184-sales-development-program-london-2027-graduates/",
+   "added": "2026-11-05"
+  },
+  {
+   "company": "AB World Foods",
+   "role": "Supply Chain Graduate Role",
+   "location": "Leigh",
+   "closing": "2026-12-09",
+   "sector": "Other",
+   "note": "Suits current Student visa holders. The Graduate visa isn't listed.",
+   "link": "https://www.gradcracker.com/hub/1479/ab-world-foods/graduate-job/87119/supply-chain-graduate-role",
+   "added": "2026-11-05"
+  },
+  {
+   "company": "AB World Foods",
+   "role": "Sales Graduate Role",
+   "location": "Maidenhead and Leigh",
+   "closing": "2026-12-02",
+   "sector": "Other",
+   "note": "Suits current Student visa holders. The Graduate visa isn't listed.",
+   "link": "https://www.gradcracker.com/hub/1479/ab-world-foods/graduate-job/87118/sales-graduate-role",
+   "added": "2026-11-05"
+  },
+  {
+   "company": "AB World Foods",
+   "role": "Marketing Graduate Role",
+   "location": "Maidenhead",
+   "closing": "2026-12-09",
+   "sector": "Other",
+   "note": "Suits current Student visa holders. The Graduate visa isn't listed.",
+   "link": "https://www.gradcracker.com/hub/1479/ab-world-foods/graduate-job/87117/marketing-graduate-role",
+   "added": "2026-11-05"
+  },
+  {
+   "company": "Gartner",
+   "role": "Account Manager, UK (2027 Graduates)",
+   "location": "London",
+   "closing": null,
+   "sector": "Other",
+   "note": "Open to 2026 and 2027 graduates.",
+   "link": "https://jobs.gartner.com/jobs/job/114183-account-manager-uk-2027-graduates/",
+   "added": "2026-11-05"
+  },
   {
    "company": "Rothesay",
    "role": "2027 Summer Internship Programme - Quantitative Strategist",
