@@ -42,7 +42,8 @@
         .forEach((s, n) => { s.colour = PASTELS[n % PASTELS.length]; });
       const stories = data.stories
         .filter((s) => preview || (live ? live.has(s.id) : parse(s.publish) <= today))
-        .sort((a, b) => parse(b.publish) - parse(a.publish));
+        // Newest publish date first; on the same day (an urgent story published early), the newer edition wins.
+        .sort((a, b) => parse(b.publish) - parse(a.publish) || b.date.localeCompare(a.date));
       render(stories);
     })
     .catch(() => render([]));
@@ -51,7 +52,7 @@
     const latest = stories[0];
     if (home) {
       home.innerHTML = latest ? `${image(latest)}
-<span class="small" style="margin-top:6px">${pretty(latest.date)} · From last week's Weekly Kick</span>
+<span class="small" style="margin-top:6px">${pretty(latest.date)} · From ${latest.publish === latest.date ? "this week's" : "last week's"} Weekly Kick</span>
 <span style="font-size:22px;font-weight:700;line-height:1.25">${esc(latest.headline)}</span>
 <span>${esc(latest.summary)}</span>
 <a href="${storyUrl(latest)}" class="go">Read more</a>`
