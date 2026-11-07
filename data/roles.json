@@ -395,6 +395,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://search.jobs.barclays/job/london/global-transaction-banking-graduate-programme-2027-london/13015/100032500192",
    "added": "2026-10-22"
   },
