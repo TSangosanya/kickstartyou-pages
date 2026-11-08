@@ -2,6 +2,7 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://*.clarity.ms; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.clarity.ms https://c.bing.com; connect-src 'self' https://ksy-signup.tsangosanya.workers.dev https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.clarity.ms https://c.bing.com; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy, terms and cookies | KickStartYou</title>
 <meta name="description" content="KickStartYou's privacy notice, terms and cookie policy.">
@@ -85,21 +86,6 @@
 <p class="bottom">© 2026 KickStartYou. We don't give immigration advice.</p>
 </div></footer>
 
-<script>
-// Tabs: show one section at a time; the address (#privacy, #terms, #cookies) picks the tab.
-(function () {
-  const panels = document.querySelectorAll('[data-panel]');
-  const tabs = document.querySelectorAll('[data-tab]');
-  function show(name) {
-    if (![...panels].some((p) => p.id === name)) name = 'privacy';
-    panels.forEach((p) => { p.hidden = p.id !== name; });
-    tabs.forEach((t) => t.setAttribute('aria-selected', t.dataset.tab === name));
-  }
-  tabs.forEach((t) => t.addEventListener('click', () => { history.replaceState(null, '', '#' + t.dataset.tab); show(t.dataset.tab); }));
-  document.querySelectorAll('[data-tab-link]').forEach((a) => a.addEventListener('click', () => setTimeout(() => { show(a.dataset.tabLink); window.scrollTo(0, 0); })));
-  window.addEventListener('hashchange', () => show(location.hash.slice(1)));
-  show(location.hash.slice(1));
-})();
-</script>
+<script src="../assets/legal.js"></script>
 </body>
 </html>

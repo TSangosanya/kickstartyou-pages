@@ -2,6 +2,7 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://*.clarity.ms; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.clarity.ms https://c.bing.com; connect-src 'self' https://ksy-signup.tsangosanya.workers.dev https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.clarity.ms https://c.bing.com; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tell us a bit more | KickStartYou</title>
 <meta name="robots" content="noindex">
@@ -12,18 +13,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="../assets/site.css">
 <script src="../assets/site.js" defer></script>
-<script>
-  // A private link from the emails (?c=...) is read here, then taken out of the address before anything else loads.
-  // Only the code is taken out: UTM tags stay so analytics can see which email the visit came from.
-  (function () {
-    var m = /[?&]c=([^&#]*)/.exec(location.search);
-    window.KSY_MORE_CODE = m ? decodeURIComponent(m[1]) : '';
-    if (m) {
-      var rest = location.search.replace(/([?&])c=[^&#]*(&|$)/, '$1').replace(/[?&]$/, '');
-      try { history.replaceState(null, '', location.pathname + rest + location.hash); } catch (e) { /* fine */ }
-    }
-  })();
-</script>
+<script src="../assets/more-code.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>

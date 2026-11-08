@@ -2,12 +2,13 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://*.clarity.ms; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.clarity.ms https://c.bing.com; connect-src 'self' https://ksy-signup.tsangosanya.workers.dev https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.clarity.ms https://c.bing.com; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Get The Weekly Kick | KickStartYou</title>
 <!-- Short link for the QR code, WhatsApp, LinkedIn and the newsletter: opens the home page with the sign-up pop-up showing. -->
 <meta http-equiv="refresh" content="0; url=../?join">
-<script>location.replace('../?join' + location.search.replace(/^\?/, '&') + location.hash);</script>
+<script src="../assets/join.js"></script>
 <style>
   body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
          background: #f4f0fa; color: #1a1a1a; font-family: Arial, Helvetica, sans-serif; padding: 16px; text-align: center; }
