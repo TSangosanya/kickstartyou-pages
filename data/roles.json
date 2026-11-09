@@ -1,6 +1,46 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-09",
  "roles": [
+  {
+   "company": "Sizewell C",
+   "role": "Business Graduate",
+   "location": "Leiston or Felixstowe",
+   "closing": "2026-11-10",
+   "sector": "Engineering and energy",
+   "note": "Security vetting needs 3 of the past 5 years living in the UK.",
+   "link": "https://jobs.sizewellc.com/job/Leiston-Sizewell-C-Business-Graduate-IP16-4EW/1450400833/",
+   "added": "2026-11-09"
+  },
+  {
+   "company": "Sizewell C",
+   "role": "Science and Engineering Graduate",
+   "location": "London or Gloucester",
+   "closing": "2026-11-10",
+   "sector": "Engineering and energy",
+   "note": "Security vetting needs 3 of the past 5 years living in the UK.",
+   "link": "https://jobs.sizewellc.com/job/London-Sizewell-C-Science-and-Engineering-Graduate-EC2R-7BP/1449754233/",
+   "added": "2026-11-09"
+  },
+  {
+   "company": "Sizewell C",
+   "role": "Project Controls Graduate",
+   "location": "London",
+   "closing": "2026-11-10",
+   "sector": "Engineering and energy",
+   "note": "Security vetting needs 3 of the past 5 years living in the UK.",
+   "link": "https://jobs.sizewellc.com/job/London-Sizewell-C-Project-Controls-Graduate-EC2R-7BP/1449759233/",
+   "added": "2026-11-09"
+  },
+  {
+   "company": "Sizewell C",
+   "role": "Supply Chain Graduate",
+   "location": "London, Leiston or Bristol",
+   "closing": "2026-11-10",
+   "sector": "Engineering and energy",
+   "note": "Security vetting needs 3 of the past 5 years living in the UK.",
+   "link": "https://jobs.sizewellc.com/job/London-Sizewell-C-Supply-Chain-Graduate-EC2R-7BP/1449761433/",
+   "added": "2026-11-09"
+  },
   {
    "company": "Gartner",
    "role": "Sales Development Program, London (2027 Graduates)",
