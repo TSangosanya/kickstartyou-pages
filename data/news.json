@@ -183,6 +183,60 @@
    "sourceUrl": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
    "alsoName": "gov.uk: A Fairer Pathway to Settlement (government response)",
    "alsoUrl": "https://assets.publishing.service.gov.uk/media/6ae89fddf4a6b3f59cf37580/FINAL_VERSION_-_Earned_Settlement_-_Consultation_Response.pdf"
+  },
+  {
+   "id": "skilled-worker-salary-rules-change",
+   "date": "2026-11-12",
+   "publish": "2026-11-19",
+   "topic": "Visa news",
+   "icon": "pound",
+   "image": "images/news/skilled-worker-salary-rules-change.png",
+   "headline": "Budget plans changes to minimum salary rules for work visas",
+   "seoTitle": "Skilled Worker visa salary rules to change",
+   "description": "The Budget plans to change minimum salary requirements for UK work visas. Here's what we know so far, and the Skilled Worker salary rules today.",
+   "summary": "The Budget says minimum salary rules for work visas will change to fit job markets across the UK. There are no new figures or dates yet.",
+   "intro": "If you're hoping to get a sponsored job in the UK, this matters to you. The government's Budget, published on 28 October, says it will change the minimum salary rules for work visas.",
+   "sections": [
+    {
+     "h": "What's changing",
+     "p": [
+      "In its section on access to talent, the Budget says the government is \"making the visa system work for all regions of the UK\". It plans to do this by changing minimum salary requirements, so that visa rules better reflect job markets across different parts of the UK.",
+      "This is a plan. The Budget doesn't give any new salary figures. It doesn't say whether amounts will go up or down, which visas the change will cover, or when it will start."
+     ]
+    },
+    {
+     "h": "The rules today",
+     "p": [
+      "For now, the gov.uk guide still shows the current rules. On the Skilled Worker visa, the main visa for sponsored jobs, you'll usually need to be paid whichever is higher:"
+     ],
+     "list": [
+      "£41,700 a year",
+      "the \"going rate\" for your type of work"
+     ]
+    },
+    {
+     "h": "Who can be paid less",
+     "p": [
+      "The going rate is a set amount for each kind of job, listed by the government. Some people can be paid less. For example, if you're under 26, or you've been on a Student or Graduate visa in the last two years, the minimum is 70% of the going rate, as long as it's at least £33,400 a year."
+     ]
+    },
+    {
+     "h": "Another plan in the same section",
+     "p": [
+      "The same part of the Budget says the government will work towards giving the highest skilled sponsored workers up to six months to find a new job if their visa is cut short. It says this would help employers bring on board high skill workers before they have to leave the country. Like the salary change, it has no start date yet."
+     ]
+    },
+    {
+     "h": "Where to check",
+     "p": [
+      "The Budget doesn't say when the detail will be published. Until then, the gov.uk Skilled Worker guide is the place to check the salary a role would need. We'll share the details in The Weekly Kick when they're out."
+     ]
+    }
+   ],
+   "sourceName": "gov.uk: Budget 2026",
+   "sourceUrl": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+   "alsoName": "gov.uk: Skilled Worker visa, your job and salary",
+   "alsoUrl": "https://www.gov.uk/skilled-worker-visa/your-job"
   }
  ]
 }

@@ -1,6 +1,96 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-12",
  "roles": [
+  {
+   "company": "Third Bridge",
+   "role": "Research Associate, Library",
+   "location": "London",
+   "closing": null,
+   "sector": "Other",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship.",
+   "link": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/4858933101?gh_jid=4858933101",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Trading 212",
+   "role": "Graduate Trading Operations Analyst",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship.",
+   "link": "https://jobs.ashbyhq.com/trading212/3869cbd3-5700-4a3f-b32c-ac386518ee9a",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Mako",
+   "role": "Graduate Software Engineer, London",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Needs a 2:1 in STEM.",
+   "link": "https://www.mako.com/opportunities/job-listing/8921970002?gh_jid=8921970002",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Informa",
+   "role": "2027 Graduate Fellowship Scheme",
+   "location": "London",
+   "closing": "2027-01-03",
+   "sector": "Other",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Needs a 2:1.",
+   "link": "https://jobs.smartrecruiters.com/InformaGroupPlc/744000158348901-2027-graduate-fellowship-scheme",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Access Bank",
+   "role": "Graduate Processing Officer",
+   "location": "Northwich",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Rolling hiring.",
+   "link": "https://theaccessbankukltd.bamboohr.com/careers/34",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Access Bank",
+   "role": "Graduate Trade Finance Officer",
+   "location": "Northwich",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Rolling hiring.",
+   "link": "https://theaccessbankukltd.bamboohr.com/careers/77",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Access Bank",
+   "role": "Graduate Compliance Risk Officer",
+   "location": "Northwich",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Rolling hiring.",
+   "link": "https://theaccessbankukltd.bamboohr.com/careers/36",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Access Bank",
+   "role": "Graduate Settlements Officer",
+   "location": "Northwich",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Rolling hiring.",
+   "link": "https://theaccessbankukltd.bamboohr.com/careers/30",
+   "added": "2026-11-12"
+  },
+  {
+   "company": "Sizewell C",
+   "role": "Project Management Graduate",
+   "location": "Leiston or Bristol",
+   "closing": null,
+   "sector": "Engineering and energy",
+   "note": "Security vetting needs 3 of the past 5 years living in the UK.",
+   "link": "https://jobs.sizewellc.com/job/Leiston-Sizewell-C-Project-Management-Graduate-IP16-4EW/1449756833/",
+   "added": "2026-11-12"
+  },
   {
    "company": "Sizewell C",
    "role": "Business Graduate",
@@ -98,6 +188,7 @@
    "closing": "2026-12-01",
    "sector": "Finance and banking",
    "note": "Must be a 2027 graduate.",
+   "closed": true,
    "link": "https://job-boards.greenhouse.io/rothesaygraduates/jobs/8811533002",
    "added": "2026-11-02"
   },
@@ -108,6 +199,7 @@
    "closing": "2026-12-01",
    "sector": "Finance and banking",
    "note": "Must be a 2027 graduate.",
+   "closed": true,
    "link": "https://job-boards.greenhouse.io/rothesaygraduates/jobs/8908895002",
    "added": "2026-11-02"
   },
@@ -184,6 +276,7 @@
    "closing": null,
    "sector": "Other",
    "note": "January and April 2027 start dates.",
+   "closed": true,
    "link": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/4921757101",
    "added": "2026-10-29"
   },
