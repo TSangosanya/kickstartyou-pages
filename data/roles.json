@@ -2,6 +2,175 @@
  "updated": "2026-11-17",
  "roles": [
   {
+   "company": "TPP",
+   "role": "Technical Systems Administrator",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "2:1 in any subject, or 1 year in 2nd line IT support.",
+   "link": "https://tpp-careers.com/roles/technical-systems-administrator/"
+  },
+  {
+   "company": "TPP",
+   "role": "Implementation Specialist",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "No experience needed. Degree desirable but not essential.",
+   "link": "https://tpp-careers.com/roles/implementation-specialist/"
+  },
+  {
+   "company": "TPP",
+   "role": "Service Analyst",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Predicted 2:2 or above. No experience needed.",
+   "link": "https://tpp-careers.com/roles/service-analyst/"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Software Test Engineer (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-software-test-engineer-2027-start/?gh_jid=4908225101"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate RF Engineer, Telecommunications (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Engineering and energy",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-rf-engineer-telecommunications-2027-start/?gh_jid=4995804101"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Mechanical/Biomedical Engineer (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Engineering and energy",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-mechanical-biomedical-engineer-2027-start/?gh_jid=4995382101"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate DSP Engineer (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-dsp-engineer-2027-start/?gh_jid=4908229101"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Design Engineer - Healthcare (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Engineering and energy",
+   "note": "Portfolio needed. Student visa holders switch to the Graduate visa first.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-design-engineer-healthcare-2027-start/?gh_jid=4995810101"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Cloud Software Engineer (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-cloud-software-engineer-2027-start/?gh_jid=4908202101"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "2027 Graduate Software Engineer - Healthcare (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Student visa holders switch to the Graduate visa first. Starts May to October 2027.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/2027-graduate-software-engineer-healthcare-2027-start/?gh_jid=4908214101"
+  },
+  {
+   "company": "TPP",
+   "role": "Graduate Software Developer",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Predicted 2:1 and AAA at A Level, with an A in Maths.",
+   "link": "https://tpp-careers.com/roles/graduate-software-developer/",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Mechanical Engineer (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Engineering and energy",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-mechanical-engineer-2027-start/?gh_jid=4971999101",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate AI Engineer (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-ai-engineer-2027-start/?gh_jid=4995814101",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Technology Strategy Analyst, Physical Sciences / Engineering (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Chemistry, physics or engineering degree. Student visa holders switch to the Graduate visa first.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-technology-strategy-analyst-physical-sciences-engineering-2027-start/?gh_jid=5014008101",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Technology Strategy Analyst, Telecommunications (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Physics or engineering degree. Student visa holders switch to the Graduate visa first.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-technology-strategy-consultant-telecommunications-2027-start/?gh_jid=4965215101",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Cambridge Consultants",
+   "role": "Graduate Software Engineer (2027 start)",
+   "location": "Cambridge",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Student visa holders switch to the Graduate visa first. Rolling applications.",
+   "link": "https://www.cambridgeconsultants.com/jobs/cambridgeconsultantslimited/graduate-software-engineer-2027-start/?gh_jid=4908176101",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Arm",
+   "role": "Graduate Quality Analytics and Automation Engineer",
+   "location": "Cambridge",
+   "closing": "2026-11-29",
+   "sector": "Tech and data",
+   "note": "Applications reviewed as they arrive. Apply early.",
+   "link": "https://careers.arm.com/job/cambridge/graduate-quality-analytics-and-automation-engineer/33099/103071142448",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Arm",
+   "role": "Graduate Program - Engineering Pathways",
+   "location": "Cambridge, Manchester, Sheffield or Bristol",
+   "closing": "2026-11-22",
+   "sector": "Tech and data",
+   "link": "https://careers.arm.com/job/cambridge/graduate-program-engineering-pathways/33099/102629004672",
+   "added": "2026-11-17"
+  },
+  {
    "company": "Third Bridge",
    "role": "Research Associate, Library",
    "location": "London",
