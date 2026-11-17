@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-17",
  "roles": [
   {
    "company": "Third Bridge",
@@ -49,6 +49,7 @@
    "closing": null,
    "sector": "Finance and banking",
    "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Rolling hiring.",
+   "closed": true,
    "link": "https://theaccessbankukltd.bamboohr.com/careers/34",
    "added": "2026-11-12"
   },
@@ -179,6 +180,7 @@
    "closing": null,
    "sector": "Other",
    "note": "Open to 2026 and 2027 graduates.",
+   "closed": true,
    "link": "https://jobs.gartner.com/jobs/job/114183-account-manager-uk-2027-graduates/",
    "added": "2026-11-05"
   },
@@ -888,6 +890,7 @@
    "location": "Leeds",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://search.jobs.barclays/job/leeds/uk-corporate-banking-graduate-programme-2027-leeds/13015/100032501568"
   },
   {
