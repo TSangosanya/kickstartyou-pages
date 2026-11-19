@@ -1,6 +1,76 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-19",
  "roles": [
+  {
+   "company": "Blockchain.com",
+   "role": "Early Careers Program 2027",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Expression of interest: you're matched to roles as teams need them.",
+   "link": "https://job-boards.greenhouse.io/blockchain/jobs/8379726",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "Taptap Send",
+   "role": "Graduate Tax Analyst",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Asks for a first-class degree.",
+   "link": "https://jobs.ashbyhq.com/TaptapSend/122d33f9-34e8-443a-af6c-2603f7fbfce8",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "Trading 212",
+   "role": "Graduate Compliance Monitoring Associate",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "2:1 in law, finance or economics. Advert doesn't mention sponsorship; check before applying.",
+   "link": "https://jobs.ashbyhq.com/trading212/40438fde-df2e-4eb4-84fe-67b7223d3f8e",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "TPP",
+   "role": "Commercial Manager",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Graduate role despite the title. Predicted 2:1 or above.",
+   "link": "https://tpp-careers.com/roles/commercial-manager/",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "TPP",
+   "role": "Account Manager",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Predicted 2:1 or above. No experience needed.",
+   "link": "https://tpp-careers.com/roles/account-manager/",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "TPP",
+   "role": "Graduate Technical Operations",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Predicted 2:1 or above in a computer-related degree.",
+   "link": "https://tpp-careers.com/roles/graduatetechnicalengineer/",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "TPP",
+   "role": "Business Analyst",
+   "location": "Leeds",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Predicted 2:1 or above, any degree.",
+   "link": "https://tpp-careers.com/roles/business-analyst/",
+   "added": "2026-11-19"
+  },
   {
    "company": "TPP",
    "role": "Technical Systems Administrator",
@@ -229,6 +299,7 @@
    "closing": null,
    "sector": "Finance and banking",
    "note": "Licensed UK visa sponsor; advert doesn't mention sponsorship. Rolling hiring.",
+   "closed": true,
    "link": "https://theaccessbankukltd.bamboohr.com/careers/77",
    "added": "2026-11-12"
   },
@@ -382,6 +453,7 @@
    "closing": "2026-12-01",
    "sector": "Finance and banking",
    "note": "Must be a 2027 graduate.",
+   "closed": true,
    "link": "https://job-boards.greenhouse.io/rothesaygraduates/jobs/8905231002",
    "added": "2026-11-02"
   },

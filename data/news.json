@@ -237,6 +237,72 @@
    "sourceUrl": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
    "alsoName": "gov.uk: Skilled Worker visa, your job and salary",
    "alsoUrl": "https://www.gov.uk/skilled-worker-visa/your-job"
+  },
+  {
+   "id": "two-year-graduate-visa-some-universities",
+   "date": "2026-11-19",
+   "publish": "2026-11-26",
+   "topic": "Visa news",
+   "icon": "calendar",
+   "image": "images/news/two-year-graduate-visa-some-universities.png",
+   "headline": "Budget plans two-year Graduate visa for some universities",
+   "seoTitle": "Graduate visa: 2 years for some universities",
+   "description": "The Budget plans a two-year Graduate visa for graduates of some universities. Here's what we know, what's still missing and the rules today.",
+   "summary": "The Budget plans a two-year Graduate visa for graduates of some universities. There's no list of universities and no start date yet.",
+   "intro": "If you're studying in the UK and hoping to stay on after your course, this one is worth knowing. The government's Budget, published on 28 October, plans to give graduates of some universities a two-year Graduate visa.",
+   "sections": [
+    {
+     "h": "What's changing",
+     "p": [
+      "The Graduate visa lets you stay and work in the UK after your course, without a sponsor. In its section on access to talent, the Budget says the government will increase the Graduate visa to two years for graduates from \"high compliance universities\" where there are \"strong labour market outcomes\".",
+      "The Budget doesn't explain what these terms mean or how they will be measured. A university's labour market outcomes usually means how well its graduates do in finding work.",
+      "This is a plan, not a rule yet. Nothing has changed on the gov.uk Graduate visa guide."
+     ]
+    },
+    {
+     "h": "What we don't know yet",
+     "list": [
+      "Which universities will qualify. There's no list.",
+      "How \"high compliance\" and \"strong labour market outcomes\" will be judged.",
+      "When the change will start.",
+      "Whether it will cover people who apply before the list is out."
+     ]
+    },
+    {
+     "h": "The rules today",
+     "p": [
+      "Until the plan becomes a rule, the gov.uk guide says a Graduate visa lasts:"
+     ],
+     "list": [
+      "2 years if you apply on or before 31 December 2026",
+      "18 months if you apply on or after 1 January 2027",
+      "3 years if you have a PhD or other doctoral qualification"
+     ]
+    },
+    {
+     "h": "When you can apply",
+     "p": [
+      "You can apply once your university has told the Home Office you've successfully completed your course. You don't have to wait until you graduate. You must be in the UK, and you must apply before your Student visa expires."
+     ]
+    },
+    {
+     "h": "What hasn't changed",
+     "list": [
+      "You still can't extend a Graduate visa, but you may be able to switch to another visa, such as a Skilled Worker visa.",
+      "The application fee is £937, plus the healthcare surcharge, which is usually £1,035 for each year of your visa."
+     ]
+    },
+    {
+     "h": "Where to check",
+     "p": [
+      "The Budget doesn't say when the details will be published. Until then, the gov.uk Graduate visa guide is the place to check how long your visa would last. We'll share the details in The Weekly Kick when they're out."
+     ]
+    }
+   ],
+   "sourceName": "gov.uk: Budget 2026",
+   "sourceUrl": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+   "alsoName": "gov.uk: Graduate visa",
+   "alsoUrl": "https://www.gov.uk/graduate-visa"
   }
  ]
 }
