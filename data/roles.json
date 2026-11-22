@@ -1,6 +1,96 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-22",
  "roles": [
+  {
+   "company": "IDTechEx",
+   "role": "Technology Analyst: Market Research & Consultancy",
+   "location": "Remote, UK",
+   "closing": null,
+   "sector": "Consulting and accounting",
+   "note": "Needs a Master's and A or A* in A level Maths. Ask about sponsorship first.",
+   "link": "https://idtechex.bamboohr.com/careers/142",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "Reply",
+   "role": "Graduate AI Software Developer",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Needs a 2:1. Starts August 2027. Includes security clearance; ask about sponsorship first.",
+   "link": "https://career5.successfactors.eu/career?company=C0004534147P&career_job_req_id=11349&career_ns=job_listing&rcm_site_locale=en_GB",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "Fospha",
+   "role": "BC Graduate - Fospha",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "No sponsorship wording in the advert. Ask the employer before applying.",
+   "link": "https://job-boards.greenhouse.io/blenheimchalcot/jobs/8385233",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "Helsing",
+   "role": "Early Careers - Electronics and RF Engineering",
+   "location": "London",
+   "closing": null,
+   "sector": "Engineering and energy",
+   "note": "No sponsorship wording in the advert. Ask the employer before applying.",
+   "link": "https://helsing.ai/jobs/5035194101?gh_jid=5035194101",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "Helsing",
+   "role": "Early Careers - Aerospace and Aeronautical Engineering",
+   "location": "London",
+   "closing": null,
+   "sector": "Engineering and energy",
+   "note": "No sponsorship wording in the advert. Ask the employer before applying.",
+   "link": "https://helsing.ai/jobs/5035173101?gh_jid=5035173101",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "InterSystems",
+   "role": "Technical Graduate",
+   "location": "Windsor or Edinburgh",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "STEM degree. Nine month fixed term from 2027. Ask about sponsorship first.",
+   "link": "https://job-boards.greenhouse.io/intersystems/jobs/7998006003",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "InterSystems",
+   "role": "Non-Technical Graduate",
+   "location": "Windsor or Edinburgh",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "Nine month fixed term from 2027. Some of their graduate adverts don't sponsor, so ask first.",
+   "link": "https://job-boards.greenhouse.io/intersystems/jobs/7998010003",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "AVEVA",
+   "role": "Software Developer Graduate - UK",
+   "location": "Cambridge",
+   "closing": "2026-12-31",
+   "sector": "Tech and data",
+   "note": "No sponsorship wording in the advert. Ask the employer before applying.",
+   "link": "https://aveva.wd3.myworkdayjobs.com/en-GB/AVEVA_careers/job/Cambridge-United-Kingdom/Software-Developer-Graduate---UK_R015080-1",
+   "added": "2026-11-22"
+  },
+  {
+   "company": "Capula",
+   "role": "Capula Analyst Programme",
+   "location": "London",
+   "closing": null,
+   "sector": "Finance and banking",
+   "note": "Two year rotational programme. Recent graduates or final year students.",
+   "link": "https://apply.workable.com/capula-investment-management-ltd/j/7603F96755/",
+   "added": "2026-11-22"
+  },
   {
    "company": "Blockchain.com",
    "role": "Early Careers Program 2027",
@@ -391,16 +481,6 @@
    "sector": "Other",
    "note": "Suits current Student visa holders. The Graduate visa isn't listed.",
    "link": "https://www.gradcracker.com/hub/1479/ab-world-foods/graduate-job/87119/supply-chain-graduate-role",
-   "added": "2026-11-05"
-  },
-  {
-   "company": "AB World Foods",
-   "role": "Sales Graduate Role",
-   "location": "Maidenhead and Leigh",
-   "closing": "2026-12-02",
-   "sector": "Other",
-   "note": "Suits current Student visa holders. The Graduate visa isn't listed.",
-   "link": "https://www.gradcracker.com/hub/1479/ab-world-foods/graduate-job/87118/sales-graduate-role",
    "added": "2026-11-05"
   },
   {
