@@ -24,6 +24,14 @@
   const subscribed = () => store.get('subscribed') === '1';
   const morePage = $('more-page'); // only on kickstartyou.org/more/
 
+  // Newsletter break: a line in the sign-up pop-up, shown only in these dates (UK time).
+  // Keep the same dates and text in assets/break.js (the "You're in!" page).
+  const NEWSLETTER_BREAK = { from: '2026-12-18', until: '2027-01-06',
+    text: 'The Weekly Kick is on a Christmas break until 7th January.' };
+  const ukToday = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
+  const breakNote = ukToday >= NEWSLETTER_BREAK.from && ukToday <= NEWSLETTER_BREAK.until
+    ? ' <strong>' + NEWSLETTER_BREAK.text + '</strong>' : '';
+
   // ---------- markup added to every page ----------
   const legal = BASE + 'legal/';
   document.body.insertAdjacentHTML('beforeend', `
@@ -39,7 +47,7 @@
 <button type="button" class="close" aria-label="Close" data-close>✕</button>
 <div id="pp-form">
 <h2 id="pp-title">Never miss a closing date.</h2>
-<p class="intro">The roles you can't miss and the sponsorship news that matters. Free, every Thursday.</p>
+<p class="intro">The roles you can't miss and the sponsorship news that matters. Free, every Thursday.${breakNote}</p>
 <div class="fields">
 <div class="two">
 <div class="ul"><label for="pp-name">First name <span class="req">*</span></label><input id="pp-name" autocomplete="given-name"><span class="ferr" id="pp-name-err" role="alert" hidden>Enter your first name</span></div>
