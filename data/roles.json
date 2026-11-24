@@ -997,6 +997,7 @@
    "closing": null,
    "sector": "Tech and data",
    "note": "Needs a computer science, engineering, maths, physics or similar degree.",
+   "closed": true,
    "link": "https://jobs.lever.co/palantir/2aa14e4f-d406-486e-9aa8-6ff3358d70a0"
   },
   {
@@ -1113,6 +1114,7 @@
    "location": "London",
    "closing": null,
    "sector": "Tech and data",
+   "closed": true,
    "link": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005"
   },
   {
