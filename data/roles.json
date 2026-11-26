@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-26",
  "roles": [
+  {
+   "company": "Capula",
+   "role": "2027 Technology Graduate Programme",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "note": "For students graduating in 2027.",
+   "link": "https://apply.workable.com/capula-investment-management-ltd/j/F315E7E4CB/"
+  },
+  {
+   "company": "Synack",
+   "role": "Graduate Software Engineer",
+   "location": "Remote, UK",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://job-boards.greenhouse.io/synack/jobs/8165010",
+   "added": "2026-11-26"
+  },
   {
    "company": "IDTechEx",
    "role": "Technology Analyst: Market Research & Consultancy",
@@ -20,6 +38,33 @@
    "note": "Needs a 2:1. Includes security clearance.",
    "link": "https://career5.successfactors.eu/career?company=C0004534147P&career_job_req_id=11349&career_ns=job_listing&rcm_site_locale=en_GB",
    "added": "2026-11-22"
+  },
+  {
+   "company": "Fospha",
+   "role": "Junior Software Engineer",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://job-boards.greenhouse.io/blenheimchalcot/jobs/8207847",
+   "added": "2026-11-26"
+  },
+  {
+   "company": "Fospha",
+   "role": "Graduate Data Engineer",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://job-boards.greenhouse.io/blenheimchalcot/jobs/8207802",
+   "added": "2026-11-26"
+  },
+  {
+   "company": "Fospha",
+   "role": "Graduate Customer Intelligence Executive",
+   "location": "London",
+   "closing": null,
+   "sector": "Tech and data",
+   "link": "https://job-boards.greenhouse.io/blenheimchalcot/jobs/8041407",
+   "added": "2026-11-26"
   },
   {
    "company": "Fospha",
@@ -75,6 +120,15 @@
    "sector": "Tech and data",
    "link": "https://aveva.wd3.myworkdayjobs.com/en-GB/AVEVA_careers/job/Cambridge-United-Kingdom/Software-Developer-Graduate---UK_R015080-1",
    "added": "2026-11-22"
+  },
+  {
+   "company": "AVEVA",
+   "role": "Software Developer Graduate (Core AI) - UK",
+   "location": "Cambridge (hybrid)",
+   "closing": "2026-12-31",
+   "sector": "Tech and data",
+   "link": "https://aveva.wd3.myworkdayjobs.com/en-GB/AVEVA_careers/job/Cambridge-United-Kingdom/Software-Developer-Graduate--Core-AI----UK_R015079",
+   "added": "2026-11-26"
   },
   {
    "company": "Capula",
@@ -338,6 +392,7 @@
    "location": "London",
    "closing": null,
    "sector": "Finance and banking",
+   "closed": true,
    "link": "https://jobs.ashbyhq.com/trading212/3869cbd3-5700-4a3f-b32c-ac386518ee9a",
    "added": "2026-11-12"
   },
@@ -912,6 +967,7 @@
    "closing": null,
    "sector": "Tech and data",
    "note": "Asks for strong Python or C++ and deep learning skills.",
+   "closed": true,
    "link": "https://www.jumptrading.com/hr/job?gh_jid=7977132"
   },
   {

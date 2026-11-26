@@ -303,6 +303,31 @@
    "sourceUrl": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
    "alsoName": "gov.uk: Graduate visa",
    "alsoUrl": "https://www.gov.uk/graduate-visa"
+  },
+  {
+   "id": "visa-advisers-scrap-innovator-founder",
+   "date": "2026-11-26",
+   "publish": "2026-12-03",
+   "topic": "Visa news",
+   "icon": "passport",
+   "image": "images/news/visa-advisers-scrap-innovator-founder.png",
+   "headline": "Visa advisers: scrap Innovator Founder, tighten Global Talent",
+   "seoTitle": "Innovator Founder visa: MAC says abolish it",
+   "description": "The Migration Advisory Committee says the Innovator Founder visa should be abolished and Global Talent checks tightened. Here are the key recommendations.",
+   "summary": "Government advisers say the Innovator Founder visa should end and Global Talent needs tighter checks. These are recommendations, not new rules.",
+   "intro": "If you've thought about starting a business in the UK, or applying for a visa based on your talent in your field, this matters to you. On 17 November 2026 the Migration Advisory Committee published its review of the Innovator Founder and Global Talent visas, and it recommends big changes to both.",
+   "sections": [
+    {"h": "What the review looked at", "p": ["The Migration Advisory Committee is an independent group that gives the government advice on immigration. This review looked at how well two visas attract highly skilled people to the UK: the Innovator Founder visa, for people setting up a business here, and the Global Talent visa, for highly skilled people endorsed in their field.", "The committee says it judged the routes as thoroughly as the current data allows. These are recommendations to the Home Secretary. They are not new rules."]},
+    {"h": "Innovator Founder: the key recommendations", "p": ["The committee says the route's performance is poor enough to justify abolishing it. It says the visa should either be abolished in its current form or, if the government wants to keep it, reformed to make it much more selective.", "If the government keeps the route, it recommends:"], "list": ["a longer wait before you can settle, five years instead of three", "stronger checks on how the business is doing before settlement is granted", "Endorsing Bodies (the organisations that endorse applicants) only selling paid support to people endorsed by a different Endorsing Body", "working with the committee to improve the data, then a rapid review, if the government wants a more selective version"]},
+    {"h": "Global Talent: the key recommendations", "p": ["The committee says Global Talent is largely working well, but there is room to improve. It suggests tightening parts of the entry process so the route is harder to misuse. It recommends:"], "list": ["reference letters going straight to the Endorsing Body, not through the applicant", "guidelines to stop referees supporting applicants when there is a conflict of interest", "at settlement, a modest income test based on at least the National Living Wage in a full-time job", "at settlement, proof that you have kept working in your field, not just evidence of a single payment", "the Home Office looking at moving more high-performing employees in arts and tech onto the existing fast track"]},
+    {"h": "Other recommendations", "list": ["a major review of all the guidance for both visas", "no return of a standalone investor visa", "no investor option added to either visa"]},
+    {"h": "What hasn't changed", "list": ["These are recommendations only. The government has not responded yet.", "The rules for both visas stay the same for now.", "The review does not cover the Graduate, Student or Skilled Worker visas."]},
+    {"h": "Where to check", "p": ["If one of these visas is part of your plans, keep an eye on gov.uk for the government's response before you make any decisions."]}
+   ],
+   "sourceName": "gov.uk: Talent routes review",
+   "sourceUrl": "https://www.gov.uk/government/publications/talent-routes-review",
+   "alsoName": "gov.uk: Covering letter from the Migration Advisory Committee chair",
+   "alsoUrl": "https://www.gov.uk/government/publications/talent-routes-review/covering-letter-from-dr-madeleine-sumption-to-the-home-secretary-review-of-talent-routes"
   }
  ]
 }
